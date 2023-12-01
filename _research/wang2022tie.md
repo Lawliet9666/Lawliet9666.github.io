@@ -8,8 +8,8 @@ author_profile: true
 {% include base_path %}
 
 <p style="text-align:center;">
-    <img src="/images/wang2022tiev2.gif" width="300pt" alt="v2"/>
-    <img src="/images/wang2022tiev3.gif" width="300pt" alt="v3"/>
+    <img src="/images/wang2022tiev2.gif" width="500pt" alt="v2"/>
+    <img src="/images/wang2022tiev3.gif" width="500pt" alt="v3"/>
 </p>
 
 

@@ -8,12 +8,12 @@ author_profile: true
 {% include base_path %}
 
 <p style="text-align:center;">
-    <img src="/images/wang2023cccv3.gif" width="300pt" alt="multi"/>
+    <img src="/images/wang2023cccv3.gif" width="500pt" alt="multi"/>
 </p>
 
 <p style="text-align:center;">
-    <img src="/images/wang2023cccp2.png" width="300pt" alt="p2"/>
-    <img src="/images/wang2023cccp3.png" width="300pt" alt="sim"/>
+    <img src="/images/wang2023cccp2.png" width="500pt" alt="p2"/>
+    <img src="/images/wang2023cccp3.png" width="500pt" alt="sim"/>
 </p>
 
 
