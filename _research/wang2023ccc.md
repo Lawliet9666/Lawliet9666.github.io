@@ -12,10 +12,10 @@ author_profile: true
     <img src="/images/wang2023cccv2.gif" width="300pt" alt="ai"/>
 </p>
 
-<p style="text-align:center;">
+<!-- <p style="text-align:center;">
     <img src="/images/wang2023cccp2.gif" width="300pt" alt="p2"/>
     <img src="/images/wang2023cccp3.gif" width="300pt" alt="sim"/>
-</p>
+</p> -->
 
 
 
