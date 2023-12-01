@@ -8,14 +8,13 @@ author_profile: true
 {% include base_path %}
 
 <p style="text-align:center;">
-    <img src="/images/wang2023cccv1.gif" width="300pt" alt="multi"/>
-    <img src="/images/wang2023cccv2.gif" width="300pt" alt="ai"/>
+    <img src="/images/wang2023cccv3.gif" width="300pt" alt="multi"/>
 </p>
 
-<!-- <p style="text-align:center;">
-    <img src="/images/wang2023cccp2.gif" width="300pt" alt="p2"/>
-    <img src="/images/wang2023cccp3.gif" width="300pt" alt="sim"/>
-</p> -->
+<p style="text-align:center;">
+    <img src="/images/wang2023cccp2.png" width="300pt" alt="p2"/>
+    <img src="/images/wang2023cccp3.png" width="300pt" alt="sim"/>
+</p>
 
 
 
