@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "En Multi-robot Coverage"
+title: "Target Chasing"
 permalink: /research/wang2022tie/
 author_profile: true
 ---

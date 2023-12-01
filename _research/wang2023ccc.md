@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "En Multi-robot Coverage"
+title: "Multi-robot Search and Coverage for Infrausture Inspection"
 permalink: /research/wang2023ccc/
 author_profile: true
 ---
