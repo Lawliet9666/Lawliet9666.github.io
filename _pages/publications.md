@@ -27,7 +27,6 @@ Journals
 Conference papers
 
 
-- [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391)
 
 
 - [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/submit/5391689/view) [[Video]](https://youtu.be/b3Zoxo5hz9U)
@@ -41,6 +40,9 @@ Conference papers
 - [Sampling-based path planning under temporal logic constraints with real-time adaptation](https://ieeexplore.ieee.org/document/10161266). Y. Chen, R. Wang, **X. Wang***, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA), 2023. [[PDF]](https://arxiv.org/abs/2302.11114) [[Video]](https://www.youtube.com/watch?v=UH-4KcCUixw)
 
 - [Fast and Secure Distributed Multi-agent Coverage Control with An Application to Infrastructure Inspection and Reconstruction](https://ieeexplore.ieee.org/document/10241159). **X. Wang***, C. Gao, X. Chen, B. M. Chen. Chinese Control Conference (CCC), 2023, Guan Zhao-Zhi Award Finalist. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10241159) [[Video]](https://youtu.be/Adt6GwdKEjM)
+
+
+- [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391)
 
 - [An Interactive System for Multiple-task Linear Temporal Logic Path Planning](). Y. Chen*, **X. Wang**, R. Wang, Z. Guo, S. Lai, B. M. Chen. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1) [[Video]](https://www.youtube.com/watch?v=XJK5-Igrg-8)
 
