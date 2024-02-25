@@ -44,4 +44,8 @@ Conference papers
 
 - [An Interactive System for Multiple-task Linear Temporal Logic Path Planning](). Y. Chen*, **X. Wang**, R. Wang, Z. Guo, S. Lai, B. M. Chen. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1) [[Video]](https://www.youtube.com/watch?v=XJK5-Igrg-8)
 
-- [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](). R. Wang, Z. Guo, Y. Chen, **X. Wang**, B. M. Chen. Under review in IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]]( https://arxiv.org/abs/2307.06101) [[Video]](https://youtu.be/v7RkET2Yfes)
+- [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](). R. Wang, Z. Guo, Y. Chen, **X. Wang**, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]]( https://arxiv.org/abs/2307.06101) [[Video]](https://youtu.be/v7RkET2Yfes)
+
+Patents
+
+- [A Human-in-the-Loop System for Mobile Robot Task Planning](). B. M. Chen, Y. Chen, R. Wang, **X. Wang**, Xi Chen. Patent of the United States.
