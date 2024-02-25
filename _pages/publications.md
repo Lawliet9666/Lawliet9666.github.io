@@ -10,13 +10,13 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - corresponding author:*  for equal contribution:# 
 
-- [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. Under review in IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](https://youtu.be/b3Zoxo5hz9U)
+- [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](https://youtu.be/b3Zoxo5hz9U)
 
 - [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](). R. Wang, Z. Guo, Y. Chen, **X. Wang**, B. M. Chen. Under review in IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
 
-- [Synergistic and reconfigurable LTL planning for robots with coupled action-motion constraints](). Y. Chen*, H. Tang, R. Wang, Z. Guo, **X. Wang**, S. Gao, X. Liu, B. M. Chen. Under review in IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
+- [Synergistic and reconfigurable LTL planning for robots with coupled action-motion constraints](). Y. Chen*, H. Tang, R. Wang, Z. Guo, **X. Wang**, S. Gao, X. Liu, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
 
-- [A Hierarchical Multi-UAV Cooperative Framework for Infrastructure Inspection and Reconstruction](). C. Gao, **X. Wang*** , X. Chen, B. M. Chen. Control Theory and Technology, in print, 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
+- [A Hierarchical Multi-UAV Cooperative Framework for Infrastructure Inspection and Reconstruction](). C. Gao, **X. Wang*** , X. Chen, B. M. Chen. Control Theory and Technology, 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
 
 - [OA-ECBVC: A Cooperative Collision-free Encirclement and Capture Approach in Cluttered Environments](). **X. Wang**, Y. Ding, Y. Chen, R. Han, L. Xi*, B. M. Chen. IEEE Conference on Decision and Control (CDC), 2023. [[PDF]](https://www.researchgate.net/profile/Xinyi_Wang154/publication/374446885_OA-ECBVC_A_Cooperative_Collision-free_Encirclement_and_Capture_Approach_in_Cluttered_Environments/links/651e28923ab6cb4ec6bc098a/OA-ECBVC-A-Cooperative-Collision-free-Encirclement-and-Capture-Approach-in-Cluttered-Environments.pdf) [[Video]](https://youtu.be/wDxYuEJ1cKs)
 
