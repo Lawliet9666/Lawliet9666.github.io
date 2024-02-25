@@ -50,7 +50,7 @@ References:
 
 [1] [Fast and Secure Distributed Multi-agent Coverage Control with An Application to Infrastructure Inspection and Reconstruction](https://ieeexplore.ieee.org/document/10241159). **X. Wang***, C. Gao, X. Chen, B. M. Chen. Chinese Control Conference (CCC), 2023, Guan Zhao-Zhi Award Finalist. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10241159) [[Video]](https://youtu.be/Adt6GwdKEjM)
 
-[2] [A Hierarchical Multi-UAV Cooperative Framework for Infrastructure Inspection and Reconstruction](). C. Gao, **X. Wang*** , X. Chen, B. M. Chen. Control Theory and Technology, in print, 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
+[2] [A Hierarchical Multi-UAV Cooperative Framework for Infrastructure Inspection and Reconstruction](). C. Gao, **X. Wang*** , X. Chen, B. M. Chen. Control Theory and Technology, 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
 
 
 <div style="float: right;">
