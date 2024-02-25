@@ -8,13 +8,13 @@ author_profile: true
 
 You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=vXhDzzIAAAAJ&hl=zh-CN) or [Research Gate](https://www.researchgate.net/profile/Xinyi_Wang154/publications).
 
-- corresponding author:*  for equal contribution:# 
+corresponding author:*  for equal contribution:# 
 
-- [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](https://youtu.be/b3Zoxo5hz9U)
+- [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/submit/5391689/view) [[Video]](https://youtu.be/b3Zoxo5hz9U)
 
-- [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](). R. Wang, Z. Guo, Y. Chen, **X. Wang**, B. M. Chen. Under review in IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
+- [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](). R. Wang, Z. Guo, Y. Chen, **X. Wang**, B. M. Chen. Under review in IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]]( https://arxiv.org/abs/2307.06101) [[Video]](https://youtu.be/v7RkET2Yfes)
 
-- [Synergistic and reconfigurable LTL planning for robots with coupled action-motion constraints](). Y. Chen*, H. Tang, R. Wang, Z. Guo, **X. Wang**, S. Gao, X. Liu, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
+<!-- - [Synergistic and reconfigurable LTL planning for robots with coupled action-motion constraints](). Y. Chen*, H. Tang, R. Wang, Z. Guo, **X. Wang**, S. Gao, X. Liu, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](#bibtex-link) -->
 
 - [A Hierarchical Multi-UAV Cooperative Framework for Infrastructure Inspection and Reconstruction](). C. Gao, **X. Wang*** , X. Chen, B. M. Chen. Control Theory and Technology, 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
 
@@ -24,13 +24,13 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [Distributed Encirclement and Capture of Multiple Pursuers with Collision Avoidance](https://ieeexplore.ieee.org/abstract/document/10236908?casa_token=VrAyK-OMAakAAAAA:woO3v1UcCMnj7OPdvSfh2zkUPFaCSwiOAoR_7Zm5tX0sUDOM3QUo2zP9KZmAWvdn89QBT5mIvQ). **X. Wang**, L. Xi, Y. Ding*, B. M. Chen. IEEE Transactions on Industrial Electronics (TIE), 2023. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10236908&casa_token=7tQq3eb7FsIAAAAA:-Bwcu9NuWQ2FMFcg54acgAHk_x5RW8tNB-iExJImsdQI2RSO_nnXfcQxlS0nvIx5KyfbAc_9IA&tag=1) [[Video]](https://youtu.be/H3owgGUoTko)
 
-- [An Interactive System for Multiple-task Linear Temporal Logic Path Planning](). Y. Chen*, **X. Wang**, R. Wang, Z. Guo, S. Lai, B. M. Chen. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
+- [An Interactive System for Multiple-task Linear Temporal Logic Path Planning](). Y. Chen*, **X. Wang**, R. Wang, Z. Guo, S. Lai, B. M. Chen. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1) [[Video]](https://www.youtube.com/watch?v=XJK5-Igrg-8)
 
-- [Sampling-based path planning under temporal logic constraints with real-time adaptation](https://ieeexplore.ieee.org/document/10161266). Y. Chen, R. Wang, **X. Wang***, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA), 2023. [[PDF]](https://arxiv.org/abs/2302.11114) [[Video]](#bibtex-link)
+- [Sampling-based path planning under temporal logic constraints with real-time adaptation](https://ieeexplore.ieee.org/document/10161266). Y. Chen, R. Wang, **X. Wang***, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA), 2023. [[PDF]](https://arxiv.org/abs/2302.11114) [[Video]](https://www.youtube.com/watch?v=UH-4KcCUixw)
 
-- [A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction](https://www.sciencedirect.com/science/article/pii/S0926580523000134?casa_token=PsD-wEZR1-EAAAAA:lZaWNcXIQSNa3HQoskvWua-NgQ4qDiYC_QJXB3ssgw7dliSJcnLdKWA3sVmemckTVfPWbP4Tww). C. Gao, **X. Wang**, R. Wang, Z. Zhao, Y. Zhai, X. Chen*, B. M. Chen. Automation in Construction (AIC), 2022. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
+- [A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction](https://www.sciencedirect.com/science/article/pii/S0926580523000134?casa_token=PsD-wEZR1-EAAAAA:lZaWNcXIQSNa3HQoskvWua-NgQ4qDiYC_QJXB3ssgw7dliSJcnLdKWA3sVmemckTVfPWbP4Tww). C. Gao, **X. Wang**, R. Wang, Z. Zhao, Y. Zhai, X. Chen*, B. M. Chen. Automation in Construction (AIC), 2022. [[PDF]](#arxiv-link) 
 
-- [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391) [[Video]](#bibtex-link)
+- [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391)
 
 - [Decentralized MPC-based trajectory generation for multiple quadrotors in cluttered environments](https://www.worldscientific.com/doi/10.1142/S2737480721500072). **X. Wang**, L. Xi, Y. Chen, S. Lai*, F. Lin, B. M. Chen. Guidance, Navigation and Control, 2021, 1(02): 2150007. [[PDF]](https://www.worldscientific.com/doi/epdf/10.1142/S2737480721500072) [[Video]](https://youtu.be/QgHfa2dgvv8)
 
