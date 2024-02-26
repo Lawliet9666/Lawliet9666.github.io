@@ -12,10 +12,11 @@ I am a Postdoctoral Fellow in [Unmanned Systems Research (USR) Group](http://ww
 
 
 Research interest
-
+======
 I am interested in various topics related to multi-robot coordination systems in challenging scenarrios, such as search and coverage problems in unstructured and unknown environments, and pursuit-evasion problems with adversarial target. The early stages of my research were dedicated to the local trajectory planning of mobile robots, laying the groundwork for more complex coordination tasks. My current research focuses on the task planning of large-scale multi-robot coordination systems. For example, 1) Enhanced Multi-Robot System Coordination: Distributed information sharing and intermittent communication. 2) Safety guaranteed learning policy with coverage control. 3) Enhanced efficiency of information gathering / object search /inspection: Semantics-aware map.
 
 Research topic during my PhD 
+======
 1. Multi-robot motion planning & path following
 2. Multi-robot coverage for infrastructure inspection and reconstruction
 3. Multi-player pursuit-evasion problem
