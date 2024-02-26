@@ -49,6 +49,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [Decentralized trajectory generation technique for multiple unmanned multi-copter systems in cluttered environments](https://www.imavs.org/papers/2021/26.pdf). **X. Wang***, L. Xi, Y. Chen, S. Lai, F. Lin, B. M. Chen. The 12th International Micro Air Vehicle Conference (IMAV), 2021. [[PDF]](https://www.imavs.org/papers/2021/26.pdf) 
 
+
 ## Patents
 
 - [A Human-in-the-Loop System for Mobile Robot Task Planning](). B. M. Chen, Y. Chen, R. Wang, **X. Wang**, Xi Chen. Patent of the United States.
