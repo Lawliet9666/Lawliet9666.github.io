@@ -45,10 +45,10 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [An Interactive System for Multiple-task Linear Temporal Logic Path Planning](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1). Y. Chen*, **X. Wang**, R. Wang, Z. Guo, S. Lai, B. M. Chen. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1) [[Video]](https://www.youtube.com/watch?v=XJK5-Igrg-8)
 
-- [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](https://arxiv.org/abs/2307.06101). R. Wang, Z. Guo, Y. Chen, **X. Wang**, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/abs/2307.06101) [[Video]](https://youtu.be/v7RkET2Yfes)
+- [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](https://arxiv.org/abs/2307.06101). R. Wang, Z. Guo, Y. Chen*, **X. Wang**, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/abs/2307.06101) [[Video]](https://youtu.be/v7RkET2Yfes)
 
 - [Decentralized trajectory generation technique for multiple unmanned multi-copter systems in cluttered environments](https://www.imavs.org/papers/2021/26.pdf). **X. Wang***, L. Xi, Y. Chen, S. Lai, F. Lin, B. M. Chen. The 12th International Micro Air Vehicle Conference (IMAV), 2021. [[PDF]](https://www.imavs.org/papers/2021/26.pdf) 
 
-Patents
+## Patents
 
 - [A Human-in-the-Loop System for Mobile Robot Task Planning](). B. M. Chen, Y. Chen, R. Wang, **X. Wang**, Xi Chen. Patent of the United States.
