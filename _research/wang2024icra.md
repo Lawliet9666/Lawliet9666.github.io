@@ -19,7 +19,7 @@ Multi-robot systems have increasingly become instrumental in tackling search and
 
 References: 
 
-[1] [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](https://arxiv.org/submit/5391689/view). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/submit/5391689/view) [[Video]](https://youtu.be/b3Zoxo5hz9U)
+[1] [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](https://arxiv.org/pdf/2403.01710.pdf). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/pdf/2403.01710.pdf) [[Video]](https://youtu.be/b3Zoxo5hz9U)
 
 <div style="float: right;">
     <button onclick="location.href='https://lawliet9666.github.io/research/'" type="button">Back</button>

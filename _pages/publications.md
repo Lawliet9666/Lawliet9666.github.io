@@ -29,7 +29,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 
 
-- [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](https://arxiv.org/submit/5391689/view). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/submit/5391689/view) [[Video]](https://youtu.be/b3Zoxo5hz9U)
+- [Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments](https://arxiv.org/pdf/2403.01710.pdf). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/pdf/2403.01710.pdf) [[Video]](https://youtu.be/b3Zoxo5hz9U)
 
 
 <!-- - [Synergistic and reconfigurable LTL planning for robots with coupled action-motion constraints](). Y. Chen*, H. Tang, R. Wang, Z. Guo, **X. Wang**, S. Gao, X. Liu, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](#arxiv-link) [[Video]](#bibtex-link) -->
