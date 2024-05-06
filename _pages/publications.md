@@ -39,7 +39,10 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [Sampling-based path planning under temporal logic constraints with real-time adaptation](https://ieeexplore.ieee.org/document/10161266). Y. Chen, R. Wang, **X. Wang***, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA), 2023. [[PDF]](https://arxiv.org/abs/2302.11114) [[Video]](https://www.youtube.com/watch?v=UH-4KcCUixw)
 
+
 - [Fast and Secure Distributed Multi-agent Coverage Control with An Application to Infrastructure Inspection and Reconstruction](https://ieeexplore.ieee.org/document/10241159). **X. Wang***, C. Gao, X. Chen, B. M. Chen. Chinese Control Conference (CCC), 2023, Guan Zhao-Zhi Award Finalist. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10241159) [[Video]](https://youtu.be/Adt6GwdKEjM)
+
+- [An Active Search Strategy with Multiple Unmanned Aerial Systems for Multiple Targets](). C. Gao, **X. Wang***, X. Chen, B. M. Chen. International Conference on Unmanned Aircraft Systems (ICUAS), 2024. [[PDF]]()
 
 - [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391)
 
