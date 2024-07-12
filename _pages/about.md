@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Fellow in [Unmanned Systems Research (USR) Group](http://www.mae.cuhk.edu.hk/~usr/) at [Hong Kong Centre For Logistics Robotics (HKCLR)](https://www.hkclr.hk/), and a Honorary Postdoctoral Fellow at [the Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html). I received my Ph.D. degree in the Department of Mechanical and Automation Engineering at CUHK in 2023, advised by Professor [Ben M. Chen](http://www.mae.cuhk.edu.hk/~bmchen/). I received my B.Eng. degree from the School of Aerospace Engineering, [Xiamen University (XMU)](https://www.xmu.edu.cn/) in 2019. 
+I am a Postdoctoral Fellow in [Unmanned Systems Research (USR) Group](http://www.mae.cuhk.edu.hk/~usr/) at [Hong Kong Centre For Logistics Robotics (HKCLR)](https://www.hkclr.hk/), and a Honorary Postdoctoral Fellow at [the Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html). I received my Ph.D. degree in the Department of Mechanical and Automation Engineering at CUHK in 2023, advised by Professor [Ben M. Chen](http://www.mae.cuhk.edu.hk/~bmchen/). I received my B.Eng. degree from [Xiamen University (XMU)](https://www.xmu.edu.cn/) in 2019. 
 
 
 Research interest
