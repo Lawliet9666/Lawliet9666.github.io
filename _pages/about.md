@@ -13,7 +13,7 @@ I am a Postdoctoral Fellow in [Unmanned Systems Research (USR) Group](http://ww
 
 Research interest
 ======
-I am interested in various topics related to multi-robot coordination systems in challenging scenarrios, such as search and coverage problems in unstructured and unknown environments, and pursuit-evasion problems with adversarial target. The early stages of my research were dedicated to the local trajectory planning of mobile robots, laying the groundwork for more complex coordination tasks. My current research focuses on the task and motion planning of multi-robot systems. For example, 1) Cooperative search in unknown environments with efficient communication. 2) Safety critical learning based technique for motion planning. 3) Combinatorial optimization with reinforcement learning for multi-agent tasks and motion planning.
+I am interested in various topics related to multi-robot coordination systems in challenging scenarrios, such as search and coverage problems in unstructured and unknown environments. The early stages of my research were dedicated to the local trajectory planning of mobile robots, laying the groundwork for more complex coordination tasks. My current research focuses on the task and motion planning of multi-robot systems. For example, 1) Cooperative coverage control in unknown environments with efficient communication. 2) Safety critical optimization based technique for motion planning. 3) Combinatorial optimization for multi-agent tasks and motion planning.
 
 Research topic during my PhD 
 ======
