@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Target Chasing"
+title: "Motion Planning"
 permalink: /research/wang2022tie/
 author_profile: true
 ---
