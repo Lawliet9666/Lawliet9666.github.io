@@ -25,13 +25,11 @@ author_profile: true
 </div> -->
  
 
-
-We study the area coverage problem for industrial
-infrastructure inspection and reconstruction. Developing
-coverage control techniques for large-scale 3D infrastructure
-located in a complex urban environment with
-incomplete prior knowledge is a much more challenging
-task. 
+This work presents a fast and secure distributed coverage control algorithm to enable
+a multi-agent system to cooperatively inspect and reconstruct infrastructure. 
+<!-- We study the area coverage problem for industrial infrastructure inspection and reconstruction. Developing
+coverage control techniques for large-scale 3D infrastructure located in a complex urban environment with
+incomplete prior knowledge is a much more challenging task.  -->
 1) a group of agents is tasked with
 exploring partially known areas to survey the surface of
 the target infrastructure and perceiving obstacles continuously.
@@ -41,10 +39,10 @@ in real-time to improve the efficiency of coverage.
 the agent from exploring the environments or cause unpredictable
 damage to the agents.
 
-This work presents a fast and secure distributed coverage control algorithm to enable
-a multi-agent system to cooperatively inspect and reconstruct infrastructure. 
-The overall system with a team of 3 unmanned aerial vehicles (UAVs) has
-been successfully adopted to physically inspect a large-scale industrial building in Shatin, Hong Kong.  
+<!-- This work presents a fast and secure distributed coverage control algorithm to enable
+a multi-agent system to cooperatively inspect and reconstruct infrastructure.  -->
+<!-- The overall system with a team of 3 unmanned aerial vehicles (UAVs) has
+been successfully adopted to physically inspect a large-scale industrial building in Shatin, Hong Kong.   -->
 
 References: 
 
