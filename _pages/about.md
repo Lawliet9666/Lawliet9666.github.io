@@ -10,17 +10,34 @@ redirect_from:
 
 I am a Postdoctoral Fellow in [Unmanned Systems Research (USR) Group](http://www.mae.cuhk.edu.hk/~usr/) at [Hong Kong Centre For Logistics Robotics (HKCLR)](https://www.hkclr.hk/), and a Honorary Postdoctoral Fellow at [the Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html). I received my Ph.D. degree in the Department of Mechanical and Automation Engineering at CUHK in 2023, advised by Professor [Ben M. Chen](http://www.mae.cuhk.edu.hk/~bmchen/). I received my B.Eng. degree from [Xiamen University (XMU)](https://www.xmu.edu.cn/) in 2019. 
 
-
 Research interest
 ======
-I am interested in various topics related to multi-robot coordination systems in challenging scenarrios, such as search and coverage problems in unstructured and unknown environments. The early stages of my research were dedicated to the local trajectory planning of mobile robots, laying the groundwork for more complex coordination tasks. My current research focuses on the task and motion planning of multi-robot systems. For example, 1) Cooperative coverage control in unknown environments with efficient communication. 2) Safety critical optimization based technique for motion planning. 3) Combinatorial optimization for multi-agent tasks and motion planning.
+I am interested in various topics related to distributed control and optimization of multi-agent coordination systems under geometric and dynamic constraints, such as dynamic coverage, collision avoidance, and sensing constraints. 
 
-Research topic during my PhD 
+Academic Services 
+======
+- IEEE Transactions on Automatic Control (TAC)
+- IEEE Transactions on Cybernetics
+- International Journal of Robust and Nonlinear Control
+- Associate Editor of IEEE International Conference on Control and Automation (ICCA)
+- IEEE Conference on Decision and Control (CDC)
+- Chinese Control Conference (CCC)
+- ICRA 2023, London, England, poster presentation
+- CDC 2023, Singapore, oral presentation
+- CCC 2023, Tianjing, China, present for Guan Zhao-Zhi Award
+- ICRA 2024, Yokohama, Japan, oral presentation
+
+
+<!-- Research interest
+======
+I am interested in various topics related to multi-robot coordination systems in challenging scenarrios, such as search and coverage problems in unstructured and unknown environments. The early stages of my research were dedicated to the local trajectory planning of mobile robots, laying the groundwork for more complex coordination tasks. My current research focuses on the task and motion planning of multi-robot systems. For example, 1) Cooperative coverage control in unknown environments with efficient communication. 2) Safety critical optimization based technique for motion planning. 3) Combinatorial optimization for multi-agent tasks and motion planning. -->
+
+<!-- Research topic during my PhD 
 ======
 1. Multi-robot motion planning  
 2. Multi-robot coverage for infrastructure inspection and reconstruction
 3. Multi-player pursuit-evasion problem
-4. Sampling-based task planning 
+4. Sampling-based task planning  -->
 
 <!--   
 Publications
