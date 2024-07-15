@@ -13,16 +13,10 @@ author_profile: true
     <img src="/images/mpe_dyn2.gif" width="300pt" alt="dynamic"/>
 </p>
 
-This work investigates the practical scenarios of
-chasing an adversarial evader in an unbounded environment
-with cluttered obstacles. The rogue robot may navigate through crowded urban, forests,
-or other unbounded areas with numerous obstacles, such as
-buildings, vehicles, pedestrians, and trees. The pursuers must
-collaborate effectively to intercept the criminal, prevent their
-escape, and avoid collisions, which puts high requirements
-on developing real-time, reactive encirclement strategies that
-prioritize safety guarantees and efficiency.
-In this work, a decentralized approach to encircle and capture an
+<!-- This work investigates the practical scenarios of chasing an adversarial evader in an unbounded environment
+with cluttered obstacles. The rogue robot may navigate through crowded urban, forests, or other unbounded areas with numerous obstacles, such as buildings, vehicles, pedestrians, and trees.  -->
+<!-- The pursuers must collaborate effectively to intercept the criminal, prevent their escape, and avoid collisions, which puts high requirements on developing real-time, reactive encirclement strategies that prioritize safety guarantees and efficiency. -->
+In this work, a decentralized control policy to encircle and capture an
 evader is introduced, which allows pursuers to efficiently
 trap the evader, increasing greater chance of
 a successful capture in large, open, obstacle-rich areas

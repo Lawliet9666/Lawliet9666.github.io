@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Deadlock-aware Multi-robot Coverage"
+title: "Deadlock-aware Multi-agent Coverage Control"
 permalink: /research/wang2024icra/
 author_profile: true
 ---
@@ -13,7 +13,7 @@ author_profile: true
     <img src="/images/wang2024icrav3.gif" width="300pt" alt="corridor"/>
 </p>
 
-Multi-agent systems have increasingly become instrumental in tackling search and coverage problems. However, the challenge of optimizing task efficiency without compromising task success still persists, particularly in expansive, unstructured environments with dense obstacles. This work presents an innovative, decentralized geometric separation based approach for search and coverage to reactively navigate these complexities while maintaining safety without deadlock. 
+Multi-agent systems have increasingly become instrumental in tackling search and coverage problems. However, the challenge of optimizing task efficiency without compromising task success still persists, particularly in expansive, unstructured environments with dense obstacles. This work presents an innovative, decentralized geometric separation based controller for search and coverage to reactively navigate these complexities while maintaining safety without deadlock. 
  
 
 
