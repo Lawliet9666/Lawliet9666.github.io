@@ -16,16 +16,13 @@ I am interested in various topics related to distributed control and optimizatio
 
 Academic Services 
 ======
+- Associate Editor of IEEE International Conference on Control and Automation (ICCA)
 - IEEE Transactions on Automatic Control (TAC)
 - IEEE Transactions on Cybernetics
 - International Journal of Robust and Nonlinear Control
-- Associate Editor of IEEE International Conference on Control and Automation (ICCA)
+- IEEE International Conference on Robotics on Automation (ICRA)
 - IEEE Conference on Decision and Control (CDC)
-- Chinese Control Conference (CCC)
-- ICRA 2023, London, England, poster presentation
-- CDC 2023, Singapore, oral presentation
-- CCC 2023, Tianjing, China, present for Guan Zhao-Zhi Award
-- ICRA 2024, Yokohama, Japan, oral presentation
+
 
 
 <!-- Research interest
