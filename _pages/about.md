@@ -13,7 +13,7 @@ I am currently a Postdoctoral Researcher in the Distributed Autonomous Systems a
 
 Research interest
 ======
-I am interested in various topics related to distributed control and optimization of multi-agent coordination systems under geometric and dynamic constraints, such as dynamic coverage, collision avoidance, and sensing constraints. I am currently working on control barrier function (CBF) based decentralized risk-aware multi robot motion planning problem.
+I am interested in various topics related to distributed control and optimization of multi-agent coordination systems under geometric and dynamic constraints, such as dynamic coverage, collision avoidance, and sensing constraints. I am currently working on decentralized risk-aware multi-robot motion planning using Control Barrier Functions (CBF).
 
 Academic Services 
 ======
