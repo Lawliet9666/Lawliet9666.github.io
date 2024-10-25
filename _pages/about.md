@@ -8,21 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Fellow in [Unmanned Systems Research (USR) Group](http://www.mae.cuhk.edu.hk/~usr/) at [Hong Kong Centre For Logistics Robotics (HKCLR)](https://www.hkclr.hk/), and a Honorary Postdoctoral Fellow at [the Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html). I received my Ph.D. degree in the Department of Mechanical and Automation Engineering at CUHK in 2023, advised by Professor [Ben M. Chen](http://www.mae.cuhk.edu.hk/~bmchen/). I received my B.Eng. degree from [Xiamen University (XMU)](https://www.xmu.edu.cn/) in 2019. 
+I am currently a Postdoctoral Researcher in the Distributed Autonomous Systems and Control (DASC) Lab at the [University of Michigan (UMich)](https://umich.edu/), directed by [Prof. Dimitra Panagou](https://aero.engin.umich.edu/people/panagou-dimitra/). Prior to this, I was a Postdoctoral Researcher in [Unmanned Systems Research (USR) Group](http://www.mae.cuhk.edu.hk/~usr/) at [Hong Kong Centre For Logistics Robotics (HKCLR)](https://www.hkclr.hk/), and a Honorary Postdoctoral Researcher at [the Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) at 2023. I received my Ph.D. degree in the Department of Mechanical and Automation Engineering at CUHK in 2023, advised by Professor [Ben M. Chen](http://www.mae.cuhk.edu.hk/~bmchen/). 
+<!-- I received my B.Eng. degree from [Xiamen University (XMU)](https://www.xmu.edu.cn/) in 2019.  -->
 
 Research interest
 ======
-I am interested in various topics related to distributed control and optimization of multi-agent coordination systems under geometric and dynamic constraints, such as dynamic coverage, collision avoidance, and sensing constraints. 
+I am interested in various topics related to distributed control and optimization of multi-agent coordination systems under geometric and dynamic constraints, such as dynamic coverage, collision avoidance, and sensing constraints. I am currently working on control barrier function (CBF) based decentralized risk-aware multi robot motion planning problem.
 
 Academic Services 
 ======
-- Associate Editor of IEEE International Conference on Control and Automation (ICCA)
+# Reviewer of Journals 
+<!-- - Associate Editor of IEEE International Conference on Control and Automation (ICCA) -->
 - IEEE Transactions on Automatic Control (TAC)
+- IEEE Transactions on Robotics (TRO)
+- IEEE Robotics and Automation Letters (RA-L)
 - IEEE Transactions on Cybernetics
 - International Journal of Robust and Nonlinear Control
+
+# Reviewer of Conferences
+- Associate Editor of IEEE International Conference on Control and Automation (ICCA) 
 - IEEE International Conference on Robotics on Automation (ICRA)
 - IEEE Conference on Decision and Control (CDC)
-
+- IEEE International Conference on Unmanned Aircraft Systems (ICUAS)
 
 
 <!-- Research interest
