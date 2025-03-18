@@ -43,7 +43,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [Distributed Encirclement and Capture of Multiple Pursuers with Collision Avoidance](https://ieeexplore.ieee.org/abstract/document/10236908?casa_token=VrAyK-OMAakAAAAA:woO3v1UcCMnj7OPdvSfh2zkUPFaCSwiOAoR_7Zm5tX0sUDOM3QUo2zP9KZmAWvdn89QBT5mIvQ). **X. Wang**, L. Xi, Y. Ding*, B. M. Chen. IEEE Transactions on Industrial Electronics (TIE), 2023. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10236908&casa_token=7tQq3eb7FsIAAAAA:-Bwcu9NuWQ2FMFcg54acgAHk_x5RW8tNB-iExJImsdQI2RSO_nnXfcQxlS0nvIx5KyfbAc_9IA&tag=1) [[Video]](https://youtu.be/H3owgGUoTko)
 
-- [A Hierarchical Multi-UAV Cooperative Framework for Infrastructure Inspection and Reconstruction](). C. Gao, **X. Wang*** , X. Chen, B. M. Chen. Control Theory and Technology, 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link)
+<!-- - [A Hierarchical Multi-UAV Cooperative Framework for Infrastructure Inspection and Reconstruction](). C. Gao, **X. Wang*** , X. Chen, B. M. Chen. Control Theory and Technology, 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link) -->
 
 - [Decentralized MPC-based trajectory generation for multiple quadrotors in cluttered environments](https://www.worldscientific.com/doi/10.1142/S2737480721500072). **X. Wang**, L. Xi, Y. Chen, S. Lai*, F. Lin, B. M. Chen. Guidance, Navigation and Control, 2021, 1(02): 2150007. [[PDF]](https://www.worldscientific.com/doi/epdf/10.1142/S2737480721500072) [[Video]](https://youtu.be/QgHfa2dgvv8)
 
