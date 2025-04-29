@@ -13,6 +13,9 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 ## Conference papers
 
 
+- [Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions](https://arxiv.org/abs/2504.06513). **X. Wang**, T. Kim, B. Hoxha, G. Fainekos, D. Panagou. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), under review, 2025. [[PDF]](https://arxiv.org/abs/2504.06513) [[Video]](https://youtu.be/4g-h0d3E63w?si=E2PApfsSJfE3QniT)
+
+- [Multi-Constraint Safe Reinforcement Learning via Closed form Solution for Log-Sum-Exp Approximation of Control Barrier Functions](). C. Wang, **X. Wang**, Y. Dong, L. Song, X. Guan. Annual Learning for Dynamics & Control Conference (L4DC), 2025. [[PDF]]()
 
 
 - [Sensor-based Multi-Robot Coverage Control with Spatial Separation in Unstructured Environments](https://arxiv.org/pdf/2403.01710.pdf). **X. Wang**, J. Xu, C. Gao,  Y. Chen, J. Zhang, C. Wang*, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/pdf/2403.01710.pdf) [[Video]](https://youtu.be/b3Zoxo5hz9U)
@@ -28,15 +31,15 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [Fast and Secure Distributed Multi-agent Coverage Control with An Application to Infrastructure Inspection and Reconstruction](https://ieeexplore.ieee.org/document/10241159). **X. Wang***, C. Gao, X. Chen, B. M. Chen. Chinese Control Conference (CCC), 2023, Guan Zhao-Zhi Award Finalist. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10241159) [[Video]](https://youtu.be/Adt6GwdKEjM)
 
-<!-- - [An Active Search Strategy with Multiple Unmanned Aerial Systems for Multiple Targets](). C. Gao, **X. Wang***, X. Chen, B. M. Chen. International Conference on Unmanned Aircraft Systems (ICUAS), 2024. [[PDF]]() -->
+- [An Active Search Strategy with Multiple Unmanned Aerial Systems for Multiple Targets](https://arxiv.org/abs/2406.16370). C. Gao, **X. Wang***, X. Chen, B. M. Chen. International Conference on Unmanned Aircraft Systems (ICUAS), 2024. [[PDF]](https://arxiv.org/abs/2406.16370)
 
 <!-- - [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391) -->
 
 - [An Interactive System for Multiple-task Linear Temporal Logic Path Planning](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1). Y. Chen*, **X. Wang**, R. Wang, Z. Guo, S. Lai, B. M. Chen. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1) [[Video]](https://www.youtube.com/watch?v=XJK5-Igrg-8)
 
-<!-- - [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](https://arxiv.org/abs/2307.06101). R. Wang, Z. Guo, Y. Chen*, **X. Wang**, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/abs/2307.06101) [[Video]](https://youtu.be/v7RkET2Yfes) -->
+- [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](https://arxiv.org/abs/2307.06101). R. Wang, Z. Guo, Y. Chen*, **X. Wang**, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/abs/2307.06101) [[Video]](https://youtu.be/v7RkET2Yfes)
 
-<!-- - [Decentralized trajectory generation technique for multiple unmanned multi-copter systems in cluttered environments](https://www.imavs.org/papers/2021/26.pdf). **X. Wang***, L. Xi, Y. Chen, S. Lai, F. Lin, B. M. Chen. The 12th International Micro Air Vehicle Conference (IMAV), 2021. [[PDF]](https://www.imavs.org/papers/2021/26.pdf)  -->
+- [Decentralized trajectory generation technique for multiple unmanned multi-copter systems in cluttered environments](https://www.imavs.org/papers/2021/26.pdf). **X. Wang***, L. Xi, Y. Chen, S. Lai, F. Lin, B. M. Chen. The 12th International Micro Air Vehicle Conference (IMAV), 2021. [[PDF]](https://www.imavs.org/papers/2021/26.pdf) 
 
 
 ## Journals

@@ -23,11 +23,14 @@ Academic Services
 - IEEE Transactions on Robotics (TRO)
 - IEEE Robotics and Automation Letters (RA-L)
 - IEEE Transactions on Cybernetics
+- IEEE Transactions on Intelligent Transportation Systems (T-ITS)
 - International Journal of Robust and Nonlinear Control
 
 # Reviewer of Conferences
 - Associate Editor of IEEE International Conference on Control and Automation (ICCA) 
+- Robotics: Science and Systems (RSS)
 - IEEE International Conference on Robotics on Automation (ICRA)
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 - IEEE Conference on Decision and Control (CDC)
 - IEEE International Conference on Unmanned Aircraft Systems (ICUAS)
 

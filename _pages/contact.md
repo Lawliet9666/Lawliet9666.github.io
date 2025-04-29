@@ -5,7 +5,7 @@ permalink: /contact/
 author_profile: true
 ---
 
-The Chinese University of Hong Kong
+<!-- The Chinese University of Hong Kong
 
 Hong Kong Science & Technology Parks
 
@@ -15,5 +15,16 @@ Hong Kong Centre For Logistics Robotics
 
 Phone: (+852) 53921596
 
-E-mail: xywangmae@link.cuhk.edu.hk
+E-mail: xywangmae@link.cuhk.edu.hk -->
+
+University of Michigan
+
+Robotics Department, 					     
+
+Address: FRB, 2505 Hayward St. Ann Arbor, MI 48109.
+
+Tel: (+734) 2775751
+
+E-mail: xinywa@umich.edu
+
 
