@@ -13,7 +13,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 ## Conference papers
 
 
-- [Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions](https://arxiv.org/abs/2504.06513). **X. Wang**, T. Kim, B. Hoxha, G. Fainekos, D. Panagou. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), under review, 2025. [[PDF]](https://arxiv.org/abs/2504.06513) [[Video]](https://youtu.be/4g-h0d3E63w?si=E2PApfsSJfE3QniT)
+- [Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions](https://arxiv.org/abs/2504.06513). **X. Wang**, T. Kim, B. Hoxha, G. Fainekos, D. Panagou. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), under review, 2025. [[PDF]](https://arxiv.org/abs/2504.06513) [[Video]](https://youtu.be/VHRnmXToLN8)
 
 - [Multi-Constraint Safe Reinforcement Learning via Closed form Solution for Log-Sum-Exp Approximation of Control Barrier Functions](). C. Wang, **X. Wang**, Y. Dong, L. Song, X. Guan. Annual Learning for Dynamics & Control Conference (L4DC), 2025. [[PDF]]()
 
