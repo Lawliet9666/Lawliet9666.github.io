@@ -17,12 +17,12 @@ I am broadly interested in distributed multi-agent coordination, focusing on int
 1. Decentralized, clarity-aware coverage in uncertain, dynamic environments
 2. Socially aware, safe navigation for heterogeneous multi-agent systems
 3. Inference-time safety guarantees for large foundation models
-
+<!-- 
 Academic Services 
 ======
-# Reviewer of Journals 
+# Reviewer of Journals  -->
 <!-- - Associate Editor of IEEE International Conference on Control and Automation (ICCA) -->
-- IEEE Transactions on Automatic Control (TAC)
+<!-- - IEEE Transactions on Automatic Control (TAC)
 - IEEE Transactions on Robotics (TRO)
 - IEEE Robotics and Automation Letters (RA-L)
 - IEEE Transactions on Cybernetics
@@ -35,7 +35,7 @@ Academic Services
 - IEEE International Conference on Robotics on Automation (ICRA)
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 - IEEE Conference on Decision and Control (CDC)
-- IEEE International Conference on Unmanned Aircraft Systems (ICUAS)
+- IEEE International Conference on Unmanned Aircraft Systems (ICUAS) -->
 
 
 <!-- Research interest

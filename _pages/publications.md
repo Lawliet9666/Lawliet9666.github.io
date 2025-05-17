@@ -8,7 +8,9 @@ author_profile: true
 
 You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=vXhDzzIAAAAJ&hl=zh-CN) or [Research Gate](https://www.researchgate.net/profile/Xinyi_Wang154/publications).
 
-### corresponding author:*  for equal contribution:# 
+### * corresponding author
+
+<!-- ### # for equal contribution  -->
 
 ## Conference papers
 
@@ -26,7 +28,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [OA-ECBVC: A Cooperative Collision-free Encirclement and Capture Approach in Cluttered Environments](https://www.researchgate.net/profile/Xinyi_Wang154/publication/374446885_OA-ECBVC_A_Cooperative_Collision-free_Encirclement_and_Capture_Approach_in_Cluttered_Environments/links/651e28923ab6cb4ec6bc098a/OA-ECBVC-A-Cooperative-Collision-free-Encirclement-and-Capture-Approach-in-Cluttered-Environments.pdf). **X. Wang**, Y. Ding, Y. Chen, R. Han, L. Xi*, B. M. Chen. IEEE Conference on Decision and Control (CDC), 2023. [[PDF]](https://www.researchgate.net/profile/Xinyi_Wang154/publication/374446885_OA-ECBVC_A_Cooperative_Collision-free_Encirclement_and_Capture_Approach_in_Cluttered_Environments/links/651e28923ab6cb4ec6bc098a/OA-ECBVC-A-Cooperative-Collision-free-Encirclement-and-Capture-Approach-in-Cluttered-Environments.pdf) [[Video]](https://youtu.be/wDxYuEJ1cKs)
 
-- [Sampling-based path planning under temporal logic constraints with real-time adaptation](https://ieeexplore.ieee.org/document/10161266). Y. Chen, R. Wang, **X. Wang***, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA), 2023. [[PDF]](https://arxiv.org/abs/2302.11114) [[Video]](https://www.youtube.com/watch?v=UH-4KcCUixw)
+- [Sampling-based Path Planning under Temporal Logic Constraints with Real-time Adaptation](https://ieeexplore.ieee.org/document/10161266). Y. Chen, R. Wang, **X. Wang***, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA), 2023. [[PDF]](https://arxiv.org/abs/2302.11114) [[Video]](https://www.youtube.com/watch?v=UH-4KcCUixw)
 
 
 - [Fast and Secure Distributed Multi-agent Coverage Control with An Application to Infrastructure Inspection and Reconstruction](https://ieeexplore.ieee.org/document/10241159). **X. Wang***, C. Gao, X. Chen, B. M. Chen. Chinese Control Conference (CCC), 2023, Guan Zhao-Zhi Award Finalist. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10241159) [[Video]](https://youtu.be/Adt6GwdKEjM)
@@ -39,7 +41,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [Air Bumper: A Collision Detection and Reaction Framework for Autonomous MAV Navigation](https://arxiv.org/abs/2307.06101). R. Wang, Z. Guo, Y. Chen*, **X. Wang**, B. M. Chen. IEEE International Conference on Robotics and Automation (ICRA) 2024. [[PDF]](https://arxiv.org/abs/2307.06101) [[Video]](https://youtu.be/v7RkET2Yfes)
 
-- [Decentralized trajectory generation technique for multiple unmanned multi-copter systems in cluttered environments](https://www.imavs.org/papers/2021/26.pdf). **X. Wang***, L. Xi, Y. Chen, S. Lai, F. Lin, B. M. Chen. The 12th International Micro Air Vehicle Conference (IMAV), 2021. [[PDF]](https://www.imavs.org/papers/2021/26.pdf) 
+- [Decentralized Trajectory Generation Technique for Multiple Unmanned Multi-copter Systems in Cluttered Environments](https://www.imavs.org/papers/2021/26.pdf). **X. Wang***, L. Xi, Y. Chen, S. Lai, F. Lin, B. M. Chen. The 12th International Micro Air Vehicle Conference (IMAV), 2021. [[PDF]](https://www.imavs.org/papers/2021/26.pdf) 
 
 
 ## Journals
@@ -48,11 +50,11 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 <!-- - [A Hierarchical Multi-UAV Cooperative Framework for Infrastructure Inspection and Reconstruction](). C. Gao, **X. Wang*** , X. Chen, B. M. Chen. Control Theory and Technology, 2023. [[PDF]](#arxiv-link) [[Video]](#bibtex-link) -->
 
-- [Decentralized MPC-based trajectory generation for multiple quadrotors in cluttered environments](https://www.worldscientific.com/doi/10.1142/S2737480721500072). **X. Wang**, L. Xi, Y. Chen, S. Lai*, F. Lin, B. M. Chen. Guidance, Navigation and Control, 2021, 1(02): 2150007. [[PDF]](https://www.worldscientific.com/doi/epdf/10.1142/S2737480721500072) [[Video]](https://youtu.be/QgHfa2dgvv8)
+- [Decentralized MPC-based Trajectory Generation for Multiple Quadrotors in Cluttered Environments](https://www.worldscientific.com/doi/10.1142/S2737480721500072). **X. Wang**, L. Xi, Y. Chen, S. Lai*, F. Lin, B. M. Chen. Guidance, Navigation and Control, 2021, 1(02): 2150007. [[PDF]](https://www.worldscientific.com/doi/epdf/10.1142/S2737480721500072) [[Video]](https://youtu.be/QgHfa2dgvv8)
 
-<!-- - [A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction](https://www.sciencedirect.com/science/article/pii/S0926580523000134?casa_token=PsD-wEZR1-EAAAAA:lZaWNcXIQSNa3HQoskvWua-NgQ4qDiYC_QJXB3ssgw7dliSJcnLdKWA3sVmemckTVfPWbP4Tww). C. Gao, **X. Wang**, R. Wang, Z. Zhao, Y. Zhai, X. Chen*, B. M. Chen. Automation in Construction (AIC), 2022. [[PDF]](#arxiv-link)  -->
+- [A UAV-based explore-then-exploit system for autonomous indoor facility inspection and scene reconstruction](https://www.sciencedirect.com/science/article/pii/S0926580523000134?casa_token=PsD-wEZR1-EAAAAA:lZaWNcXIQSNa3HQoskvWua-NgQ4qDiYC_QJXB3ssgw7dliSJcnLdKWA3sVmemckTVfPWbP4Tww). C. Gao, **X. Wang**, R. Wang, Z. Zhao, Y. Zhai, X. Chen*, B. M. Chen. Automation in Construction (AIC), 2022. [[PDF]](https://www.sciencedirect.com/science/article/pii/S0926580523000134?casa_token=PsD-wEZR1-EAAAAA:lZaWNcXIQSNa3HQoskvWua-NgQ4qDiYC_QJXB3ssgw7dliSJcnLdKWA3sVmemckTVfPWbP4Tww) 
 
-<!-- - [GTO-MPC-Based Target Chasing Using a Quadrotor in Cluttered Environments](https://ieeexplore.ieee.org/document/9464724). L. Xi, **X. Wang**, L. Jiao, S. Lai, Z. Peng*, B. M. Chen. IEEE Transactions on Industrial Electronics (TIE), 2021, 69(6): 6026-6035. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9464724) [[Video]](https://youtu.be/9mIFe29r5VA) -->
+- [GTO-MPC-Based Target Chasing Using a Quadrotor in Cluttered Environments](https://ieeexplore.ieee.org/document/9464724). L. Xi, **X. Wang**, L. Jiao, S. Lai, Z. Peng*, B. M. Chen. IEEE Transactions on Industrial Electronics (TIE), 2021, 69(6): 6026-6035. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9464724) [[Video]](https://youtu.be/9mIFe29r5VA)
 
 
 
