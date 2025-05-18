@@ -8,12 +8,13 @@ author_profile: true
 {% include base_path %}
 
 <p style="text-align:center;">
-    <img src="/images/wang2024icrav1.gif" width="300pt" alt="forest"/>
-    <img src="/images/wang2024icrav2.gif" width="300pt" alt="office"/>
-    <img src="/images/wang2024icrav3.gif" width="300pt" alt="corridor"/>
+    <img src="/images/cvar_beta_dt_beta0.99_hdist_cone.gif" width="300pt" alt="forest"/>
+    <!-- <img src="/images/wang2024icrav2.gif" width="300pt" alt="office"/>
+    <img src="/images/wang2024icrav3.gif" width="300pt" alt="corridor"/> -->
 </p>
 
-Multi-agent systems have increasingly become instrumental in tackling search and coverage problems. However, the challenge of optimizing task efficiency without compromising task success still persists, particularly in expansive, unstructured environments with dense obstacles. This work presents an innovative, decentralized geometric separation based controller for search and coverage to reactively navigate these complexities while maintaining safety without deadlock. 
+Model-based CBFs enforce formal safety in known environments but falter amid unpredictable obstacles. To overcome this, I introduce a runtime risk‑adaptive CVaR‑BF—augmented by a Dynamic Zone‑Based BF—that auto‑tunes its risk threshold to the minimum necessary, balancing safety and feasibility under uncertainty. Reinforcement‑learning (RL) controllers excel at discovering socially compliant motion patterns but may fail catastrophically when confronted with new pedestrian behaviors. I then layer this CVaR‑BF as a real‑time safety filter on an RL nominal planner, making the smallest adjustments needed to keep the worst‑case collision risk below a user‑specified bound—preserving the RL policy’s efficiency while providing probabilistic safety guarantees. It has been tested on a real social navigation dataset.
+
  
 
 
