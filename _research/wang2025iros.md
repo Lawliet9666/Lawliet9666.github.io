@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Deadlock-aware Multi-agent Coverage Control"
-permalink: /research/wang2024icra/
+title: "Safe Navigation in Uncertain Crowded Environments"
+permalink: /research/wang2025iros/
 author_profile: true
 ---
 

@@ -25,11 +25,11 @@ author_profile: true
 
 References: 
 
-<!-- [1] [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391) [[Video]](#bibtex-link) -->
+[1] [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391) [[Video]](#bibtex-link)
 
 [1] [Decentralized MPC-based trajectory generation for multiple quadrotors in cluttered environments](https://www.worldscientific.com/doi/10.1142/S2737480721500072). **X. Wang**, L. Xi, Y. Chen, S. Lai*, F. Lin, B. M. Chen. Guidance, Navigation and Control, 2021, 1(02): 2150007. [[PDF]](https://www.worldscientific.com/doi/epdf/10.1142/S2737480721500072) [[Video]](https://youtu.be/QgHfa2dgvv8)
 
-<!-- [2] [GTO-MPC-Based Target Chasing Using a Quadrotor in Cluttered Environments](https://ieeexplore.ieee.org/document/9464724). L. Xi, **X. Wang**, L. Jiao, S. Lai, Z. Peng*, B. M. Chen. IEEE Transactions on Industrial Electronics (TIE), 2021, 69(6): 6026-6035. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9464724) [[Video]](https://youtu.be/9mIFe29r5VA) -->
+[2] [GTO-MPC-Based Target Chasing Using a Quadrotor in Cluttered Environments](https://ieeexplore.ieee.org/document/9464724). L. Xi, **X. Wang**, L. Jiao, S. Lai, Z. Peng*, B. M. Chen. IEEE Transactions on Industrial Electronics (TIE), 2021, 69(6): 6026-6035. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9464724) [[Video]](https://youtu.be/9mIFe29r5VA)
 
 <!-- [4] [Decentralized trajectory generation technique for multiple unmanned multi-copter systems in cluttered environments](https://www.imavs.org/papers/2021/26.pdf). **X. Wang***, L. Xi, Y. Chen, S. Lai, F. Lin, B. M. Chen. The 12th International Micro Air Vehicle Conference (IMAV), 2021. [[PDF]](https://www.imavs.org/papers/2021/26.pdf)  -->
 

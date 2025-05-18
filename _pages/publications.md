@@ -15,7 +15,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 ## Conference papers
 
 
-- [Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions](https://arxiv.org/abs/2504.06513). **X. Wang**, T. Kim, B. Hoxha, G. Fainekos, D. Panagou. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), under review, 2025. [[PDF]](https://arxiv.org/abs/2504.06513) [[Video]](https://youtu.be/wOunvjGHhBQ)
+- [Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions](https://arxiv.org/abs/2504.06513). **X. Wang***, T. Kim, B. Hoxha, G. Fainekos, D. Panagou. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), under review, 2025. [[PDF]](https://arxiv.org/abs/2504.06513) [[Video]](https://youtu.be/wOunvjGHhBQ)
 
 - [Multi-Constraint Safe Reinforcement Learning via Closed form Solution for Log-Sum-Exp Approximation of Control Barrier Functions](). C. Wang, **X. Wang**, Y. Dong, L. Song, X. Guan. Annual Learning for Dynamics & Control Conference (L4DC), 2025. [[PDF]]()
 
@@ -35,7 +35,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - [An Active Search Strategy with Multiple Unmanned Aerial Systems for Multiple Targets](https://arxiv.org/abs/2406.16370). C. Gao, **X. Wang***, X. Chen, B. M. Chen. International Conference on Unmanned Aircraft Systems (ICUAS), 2024. [[PDF]](https://arxiv.org/abs/2406.16370)
 
-<!-- - [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391) -->
+- [Quadrotor trajectory planning for visibility-aware target following](https://ieeexplore.ieee.org/abstract/document/9739391). L. Xi#, **X. Wang**#, Ding Y, Y. Wei, Z. Peng*, B. M. Chen. IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391)
 
 - [An Interactive System for Multiple-task Linear Temporal Logic Path Planning](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1). Y. Chen*, **X. Wang**, R. Wang, Z. Guo, S. Lai, B. M. Chen. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023. [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342309&casa_token=d73iEB9oRDkAAAAA:6K5odUxKq-_0HqngI-NUwBe2IfynwhIQwDpGPgMxDyA6W60SfioU14-UgryHRBrcDmF6CiJJ&tag=1) [[Video]](https://www.youtube.com/watch?v=XJK5-Igrg-8)
 
