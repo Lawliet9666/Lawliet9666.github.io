@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 <p style="text-align:center;">
-    <img src="/images/cvar_beta_dt_beta0.99_hdist_cone.gif" width="600pt" alt="forest"/>
+    <img src="/images/cvar_beta_dt_beta0.99_hdist_cone.gif" width="1200pt" alt="forest"/>
     <!-- <img src="/images/wang2024icrav2.gif" width="300pt" alt="office"/>
     <img src="/images/wang2024icrav3.gif" width="300pt" alt="corridor"/> -->
 </p>
