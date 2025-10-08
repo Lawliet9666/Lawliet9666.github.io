@@ -1,19 +1,34 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "Xinyi Wang"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a Postdoctoral Researcher in the Distributed Autonomous Systems and Control (DASC) Lab at the [University of Michigan (UMich)](https://umich.edu/), directed by [Prof. Dimitra Panagou](https://aero.engin.umich.edu/people/panagou-dimitra/). Prior to this, I was a Postdoctoral Researcher in [Unmanned Systems Research (USR) Group](http://www.mae.cuhk.edu.hk/~usr/) at [Hong Kong Centre For Logistics Robotics (HKCLR)](https://www.hkclr.hk/), and a Honorary Postdoctoral Researcher at [the Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) at 2023. I received my Ph.D. degree in the Department of Mechanical and Automation Engineering at CUHK in 2023, advised by Professor [Ben M. Chen](http://www.mae.cuhk.edu.hk/~bmchen/). 
-<!-- I received my B.Eng. degree from [Xiamen University (XMU)](https://www.xmu.edu.cn/) in 2019.  -->
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Research Interest
-======
-I am broadly interested in distributed multi-agent coordination, focusing on integrating theory and practice to enable complex tasks with formal safety guarantees. My current work includes:
-1. Decentralized, clarity-aware coverage in uncertain, dynamic environments
-2. Socially aware, safe navigation for heterogeneous multi-agent systems
-3. Inference-time safety guarantees for large foundation models
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
