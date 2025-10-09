@@ -7,13 +7,14 @@ subtitle: University of Michigan · Robotics Department
 profile:
   align: right
   image: profile.png
+  image_max_width: 220px
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>University of Michigan</p>
     <p>Robotics Department</p>
     <p>FRB, 2505 Hayward St. Ann Arbor, MI 48109</p>
     <p>Tel: (+734) 2775751</p>
-    <p>E-mail: <a href="mailto:xinywa@umich.edu">xinywa@umich.edu</a></p>
+    <p>E-mail: <strong><a href="mailto:xinywa@umich.edu">xinywa@umich.edu</a></strong></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
