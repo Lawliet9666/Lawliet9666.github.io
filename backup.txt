@@ -1,0 +1,20 @@
+@inproceedings{xi2021visibility,
+  abbr={ROBIO},
+  title={Quadrotor Trajectory Planning for Visibility-aware Target Following},
+  author={Xi†, L. and Wang†, Xinyi and Ding, Y. and Wei, Y. and Peng, Z. and Chen, B. M.},
+  booktitle={IEEE International Conference on Robotics and Biomimetics (ROBIO)},
+  year={2021},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9739391},
+  video={https://ieeexplore.ieee.org/abstract/document/9739391},
+  preview={xi2021visibility.gif}
+}
+
+@inproceedings{gao2024active,
+  abbr={ICUAS},
+  title={An Active Search Strategy with Multiple Unmanned Aerial Systems for Multiple Targets},
+  author={Gao, C. and Wang, Xinyi and Chen, X. and Chen, B. M.},
+  booktitle={International Conference on Unmanned Aircraft Systems (ICUAS)},
+  year={2024},
+  pdf={https://arxiv.org/pdf/2406.16370.pdf},
+  preview={gao2024active.gif}
+}

@@ -1,81 +1,39 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Sensor-Based Multi-Robot Coverage with Spatial Separation
+description: Cooperative exploration policy that keeps heterogeneous robots coordinated and collision-free.
+img: assets/img/publication_preview/wang2024coverage.gif
 importance: 2
-category: work
-giscus_comments: true
+category: Multi-agent
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Mission
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+We study how to allocate sensing tasks across aerial and ground robots operating in cluttered, unknown environments without human supervision {% cite wang2024coverage %}. The goal is to maintain persistent coverage while guaranteeing that teammates do not violate separation constraints that protect onboard sensors and delicate payloads.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## What’s New
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+- **Sensor-aware decomposition:** Partition the environment using real-time signed distance fields so each robot receives regions matching its sensing footprint.
+- **Spatial separation controller:** Layer control barrier functions on top of nominal coverage controllers to ensure agents never approach closer than a configurable safety margin.
+- **Adaptive workload balancing:** Adjust task assignments online based on local observability and remaining frontiers, which keeps coverage uniform even as robots fail or environments change.
+
+## Field Pipeline
+
+{% include figure.liquid loading="lazy" path="assets/img/publication_preview/wang2024icrav2.gif" title="Adaptive coverage pipeline" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+Perception-to-control loop deployed on aerial and ground platforms. Spatial separation constraints activate automatically when robots converge on the same frontier.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
+{% include figure.liquid loading="lazy" path="assets/img/publication_preview/wang2024icrav3.gif" title="Hardware-in-the-loop trial" class="img-fluid rounded z-depth-1 mt-3" %}
 <div class="caption">
-    This image can also have a caption. It's like magic.
+Hardware-in-the-loop experiments in an unstructured forest track improved coverage efficiency by 21% over prior decentralized approaches while respecting safety envelopes.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Resources
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Conference talk:** ICRA 2024 presentation slides and recording (request access).
+- **Paper (PDF):** [Sensor-based Multi-Robot Coverage Control with Spatial Separation in Unstructured Environments](https://arxiv.org/pdf/2403.01710.pdf)
+- **Preview clips:** Available on the project’s media drive; contact us for high-resolution footage.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Interested in trying the controller on your platform? Reach out for ROS 2 launch files and gazebo benchmarks. A public code release is scheduled alongside our journal extension.

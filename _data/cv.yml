@@ -2,96 +2,124 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Xinyi Wang
+    - name: Address
+      value: FRB, 2505 Hayward St. Ann Arbor, MI 48109, USA
+    - name: E-mail
+      value: <a href="mailto:xinywa@umich.edu">xinywa@umich.edu</a>
+    - name: Phone
+      value: (+734) 2775751
 
-- title: Education
+- title: Education & Appointments
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Postdoctoral Fellow, Robotics Department
+      institution: University of Michigan, Ann Arbor, USA
+      year: 09/2024 – Present
+    - title: Postdoctoral Fellow, Department of Mechanical & Automation Engineering
+      institution: The Chinese University of Hong Kong, Hong Kong SAR
+      year: 10/2023 – 09/2024
+    - title: Ph.D. in Mechanical and Automation Engineering
+      institution: The Chinese University of Hong Kong, Hong Kong SAR
+      year: 08/2019 – 09/2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Advisors: Prof. Ben M. Chen and Prof. Jie Huang"
+    - title: B.Eng. in Flight Vehicle Design and Engineering
+      institution: Xiamen University, Xiamen, China
+      year: 09/2015 – 06/2019
+    - title: Visiting Student
+      institution: University of Oxford, Oxford, United Kingdom
+      year: 02/2017
 
-- title: Experience
+- title: Research Grants
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: "Enabling Autonomous, Persistent, and Adaptive Mobile Observational Networks Through Energy-Aware Dynamic Coverage (CPS: Medium)"
+      institution: National Science Foundation (NSF), USA
+      year: 2022 – 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Core member
+        - "Total funding: 1,000,000 USD"
+    - title: Socially Aware Safe Navigation for Heterogeneous Multi-Agent Systems
+      institution: Toyota Research North America
+      year: 2023 – 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Core member
+        - "Total funding: 150,000 USD"
+    - title: "Aerial-Marine Collaborative Heterogeneous Multi-Agent Systems with Digital Twin Technology for Smart Oceans"
+      institution: General Research Fund, Hong Kong
+      year: 2025 – 2027
       description:
+        - Proposal writer and Co-Investigator
+        - "Total funding: 1,134,931 HKD"
+    - title: "Collaborative Task Assignment of Multi-Agent Unmanned Systems for Infrastructure Inspection"
+      institution: General Research Fund, Hong Kong
+      year: 2024 – 2026
+      description:
+        - Proposal writer and core member
+        - "Total funding: 1,369,862 HKD"
+    - title: "Collaborative Search and Pursuit-evasion for Unmanned Systems in Cluttered Environments"
+      institution: General Research Fund, Hong Kong
+      year: 2023 – 2025
+      description:
+        - Proposal writer and core member
+        - "Total funding: 1,382,623 HKD"
+    - title: "Advanced Motion Planning Techniques for the Cooperation of Multi-agent Systems"
+      institution: General Research Fund, Hong Kong
+      year: 2022 – 2024
+      description:
+        - Core member
+        - "Total funding: 815,601 HKD"
+    - title: Integrated Autonomous Building Inspection and Information Management
+      institution: InnoHK Centre for Logistics Robotics, Hong Kong
+      year: 2020 – 2025
+      description:
+        - Core member
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Python, MATLAB, Julia, C++
+    - PyTorch, Robot Operating System (ROS), Gazebo
+
+
+- title: Awards & Honors
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - Postdoctoral Scholarship, Innovation and Technology Fund of Hong Kong (10/2023 – 09/2024)
+    - year: 2023
+      items:
+        - Professor Charles K. Ko Student Creativity Award, CUHK
+        - Research Postgraduate Studentship, CUHK (2019 – 2023)
+    - year: 2019
+      items:
+        - Outstanding Graduates, Xiamen University (Top 2%)
+    - year: 2017
+      items:
+        - Third Prize, RoboMaster 2017 (The 16th National College Students Robotics Contest)
+        - Xiamen International Bank Scholarship, Xiamen University (Top 4%)
+    - year: 2016 – 2017
+      items:
+        - Merit Student, Xiamen University (Twice, Top 8%)
+
+- title: Academic Services
+  type: nested_list
+  contents:
+    - title: Journal Reviewer
+      items:
+        - IEEE Transactions on Robotics (T-RO)
+        - IEEE Transactions on Automatic Control (TAC)
+        - IEEE Transactions on Cybernetics
+        - IEEE Robotics and Automation Letters (RA-L)
+        - IEEE Transactions on Intelligent Transportation Systems (T-ITS)
+        - International Journal of Robust and Nonlinear Control
+    - title: Conference Service
+      items:
+        - Associate Editor, IEEE International Conference on Control and Automation (ICCA)
+        - "Robotics: Science and Systems (RSS)"
+        - IEEE International Conference on Robotics and Automation (ICRA)
+        - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        - IEEE Conference on Decision and Control (CDC)
+        - IEEE International Conference on Unmanned Aircraft Systems (ICUAS)
