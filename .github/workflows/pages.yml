@@ -2,8 +2,8 @@ name: Build & Deploy al-folio
 
 on:
   push:
-    branches: [ main ]   # 如果你的默认分支是 main，就改成 main
-  workflow_dispatch:       # 允许在 Actions 页面手动触发
+    branches: [ master ]   # 如果默认分支是 main 就改成 main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,10 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      # 设置 Ruby (Jekyll 用)
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -29,22 +27,18 @@ jobs:
           bundler-cache: true
       - run: bundle install --without development
 
-      # 设置 Node (al-folio 的前端资源需要)
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: npm run build
 
-      # 构建 Jekyll
       - name: Build with Jekyll
         run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
 
-      # 上传构建产物
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
