@@ -39,6 +39,9 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+          
+      - name: Ensure pip cache directory exists
+        run: mkdir -p ~/.cache/pip
 
       # - name: Install OS and Python dependencies
       #   run: |
