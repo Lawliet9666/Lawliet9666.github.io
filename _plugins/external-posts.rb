@@ -23,10 +23,24 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      feed = Feedjira.parse(xml)
-      process_entries(site, src, feed.entries)
+      begin
+        response = HTTParty.get(src['rss_url'], headers: { 'User-Agent' => 'Mozilla/5.0 (ExternalPosts Jekyll)' })
+        xml = response.body
+        if xml.nil? || xml.strip.empty?
+          Jekyll.logger.warn "ExternalPosts:", "Empty response from #{src['rss_url']} — skipping"
+          return
+        end
+        feed = Feedjira.parse(xml)
+        if !feed.respond_to?(:entries) || feed.entries.nil?
+          Jekyll.logger.warn "ExternalPosts:", "Parsed feed has no entries for #{src['rss_url']} — skipping"
+          return
+        end
+        process_entries(site, src, feed.entries)
+      rescue Feedjira::NoParserAvailable => e
+        Jekyll.logger.warn "ExternalPosts:", "No valid parser for #{src['rss_url']} (#{e.message}) — skipping"
+      rescue StandardError => e
+        Jekyll.logger.warn "ExternalPosts:", "Error fetching #{src['rss_url']}: #{e.class} #{e.message} — skipping"
+      end
     end
 
     def process_entries(site, src, entries)
