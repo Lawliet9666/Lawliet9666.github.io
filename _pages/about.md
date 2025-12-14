@@ -33,9 +33,10 @@ latest_posts:
 
 I am currently a Postdoctoral Researcher in the Distributed Autonomous Systems and Control (DASC) Lab at the [University of Michigan (UMich)](https://umich.edu/), directed by [Prof. Dimitra Panagou](https://aero.engin.umich.edu/people/panagou-dimitra/). Prior to this, I was a Postdoctoral Researcher in [Unmanned Systems Research (USR) Group](http://www.mae.cuhk.edu.hk/~usr/) at [Hong Kong Centre For Logistics Robotics (HKCLR)](https://www.hkclr.hk/), and a Honorary Postdoctoral Researcher at [the Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) at 2023. I received my Ph.D. degree in the Department of Mechanical and Automation Engineering at CUHK in 2023, advised by Professor [Ben M. Chen](http://www.mae.cuhk.edu.hk/~bmchen/). 
 
-## Research Interests
+## research interests
 
-My research centers on multi-agent coordination, bridging theory and practice to realize intelligent autonomous systems with provable safety guarantees. My current work includes:
+<!-- My research centers on multi-agent coordination, bridging theory and practice to realize intelligent autonomous systems with provable safety guarantees. My current work includes: -->
+My research focuses on trustworthy multi-agent autonomy, with an emphasis on bridging the gap between the strong empirical performance of modern learning-based methods and the formal guarantees provided by control theory. Specifically, my work spans: (1) safety-critical control for single- and multi-agent systems and (2) high-level decision-making with performance guarantees.
 
 1. Coverage control in mobile sensor networks
 
