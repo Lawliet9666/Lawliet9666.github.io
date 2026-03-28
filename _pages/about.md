@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: University of Michigan · Robotics Department
 
 profile:
   align: right
@@ -36,13 +35,13 @@ I am currently a Postdoctoral Researcher in the [Distributed Autonomous Systems 
 ## Research Interests
 
 <!-- My research centers on multi-agent coordination, bridging theory and practice to realize intelligent autonomous systems with provable safety guarantees. My current work includes: -->
-My research focuses on trustworthy multi-agent autonomy, with an emphasis on bridging the gap between the strong empirical performance of modern learning-based methods and the formal guarantees provided by control theory. Specifically, my work spans: (1) safety-critical control for single- and multi-agent systems and (2) high-level decision-making with performance guarantees.
+My research advances trustworthy multi-agent autonomy by combining the empirical power of learning with the formal guarantees of control theory, spanning safety-critical control and high-level decision-making for single- and multi-agent systems.
 
-1. Coverage control in mobile sensor networks
+1. Information gathering using mobile sensor networks
 
-2. Motion planning in dense, uncertain, and dynamic environments
+2. Safety-critical control and planning in uncertain and dynamic environments
 
-3. Safe reinforcement learning for safety-critical systems
+3. Safe reinforcement learning 
 
 4. Multi-agent pursuit–evasion games
 
