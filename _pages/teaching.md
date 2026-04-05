@@ -2,13 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Teaching experience and coursework by Xinyi Wang.
 nav: true
 nav_order: 6
 ---
 
-<div class="row">
-  <div class="col-lg-7">
+<div class="row justify-content-center">
+  <div class="col-lg-8">
     <h2 class="h3 font-weight-bold mb-3">Teaching Experience</h2>
     <div class="card shadow-sm mb-3">
       <div class="card-body">
@@ -28,9 +27,8 @@ nav_order: 6
         <p class="text-muted mb-0">Teaching Assistant · The Chinese University of Hong Kong · Prof. Fei Chen</p>
       </div>
     </div>
-  </div>
-  <div class="col-lg-4 offset-lg-1">
-    <h2 class="h3 font-weight-bold mb-3">Graduate Coursework</h2>
+
+    <h2 class="h3 font-weight-bold mb-3 mt-4">Graduate Coursework</h2>
     <div class="card shadow-sm">
       <div class="card-body">
         <ul class="list-unstyled mb-0">
