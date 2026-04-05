@@ -3,8 +3,8 @@ layout: page
 permalink: /tool/
 title: tool
 description: Useful tools and interactive resources.
-nav: true
-nav_order: 7
+# nav: true
+# nav_order: 7
 ---
 
 <div class="row justify-content-center">
