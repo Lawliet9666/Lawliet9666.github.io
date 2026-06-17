@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper *"Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions"* has been accepted to IROS 2025.
+*"Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions"* accepted to IROS 2025.

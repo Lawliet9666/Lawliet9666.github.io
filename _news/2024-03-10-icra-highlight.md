@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our work *"Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments"* will be presented at ICRA 2024. 
+*"Sensor-based Multi-Robot Search and Coverage with Spatial Separation in Unstructured Environments"* presented at ICRA 2024.
