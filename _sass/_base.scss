@@ -696,6 +696,52 @@ footer.sticky-bottom {
   }
 }
 
+.news.news-list {
+  .table-responsive {
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  table.table {
+    tr {
+      border-bottom: 0;
+
+      &:hover {
+        background: transparent;
+      }
+
+      th.news-date {
+        width: 4.75rem;
+        padding: 0.35rem 0.75rem 0.35rem 0;
+        font-size: 0.8rem;
+        font-weight: 400;
+        letter-spacing: 0;
+        text-transform: none;
+        vertical-align: top;
+      }
+
+      td {
+        padding: 0.35rem 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.45;
+        vertical-align: top;
+      }
+    }
+  }
+
+  a.news-title {
+    font-weight: 400;
+  }
+
+  em {
+    font-style: normal;
+  }
+}
+
 // CV
 
 .cv {
