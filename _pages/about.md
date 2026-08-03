@@ -34,10 +34,12 @@ I am currently a Postdoctoral Researcher in the [Distributed Autonomous Systems 
 
 My research advances trustworthy robot autonomy by combining the learning method with the formal guarantees of control theory. Research Interests: Safety-critical Control, Reinforcement Learning,  Multi-robot Task and Motion Planning, Generative Models for Robotics.
 
+<!--
 ## Academic Services
 
 - **Journal reviewer:** IEEE Transactions on Robotics (T-RO), IEEE Transactions on Automatic Control (TAC), IEEE Transactions on Cybernetics, IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation Systems (T-ITS), International Journal of Robust and Nonlinear Control.
 - **Conference service:** Associate Editor, IEEE International Conference on Control and Automation (ICCA); Robotics: Science and Systems (RSS); IEEE International Conference on Robotics and Automation (ICRA); IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS); IEEE Conference on Decision and Control (CDC); IEEE International Conference on Unmanned Aircraft Systems (ICUAS).
+-->
 
 
 <!-- , spanning safety-critical control, model-based reinforcement learning, and multi-robot task and motion planning. -->
