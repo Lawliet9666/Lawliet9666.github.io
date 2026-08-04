@@ -33,5 +33,20 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+    {% if page.academic_service and page.academic_service.enabled %}
+      <section id="academic-service" class="home-section" aria-labelledby="academic-service-title">
+        <header class="home-section-header">
+          <h2 id="academic-service-title">Academic Service</h2>
+        </header>
+        <div class="home-about-copy">
+          <ul>
+            {% for item in page.academic_service.items %}
+              <li><strong>{{ item.label }}:</strong> {{ item.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    {% endif %}
   </div>
 </div>
