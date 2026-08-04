@@ -1,0 +1,54 @@
+{% assign sidebar_active = include.active | default: page.sidebar_active | default: 'about' %}
+{% assign sidebar_profile_image = page.profile.image | default: 'profile.png' | prepend: 'assets/img/' %}
+
+<aside class="home-sidebar" aria-label="Profile and site navigation">
+  <div class="home-sidebar-inner">
+    <div class="home-sidebar-profile">
+      {%
+        include figure.liquid loading="eager" path=sidebar_profile_image class="home-sidebar-image img-fluid rounded-circle"
+        sizes="(min-width: 992px) 168px, 120px" alt=site.title cache_bust=true
+      %}
+    </div>
+
+    <div class="home-sidebar-identity">
+      <a class="home-sidebar-name" href="{{ '/' | relative_url }}">
+        {% if site.title == 'blank' %}
+          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </a>
+      <p>Robotics Researcher</p>
+      {% if site.data.socials.email %}
+        <a class="home-sidebar-email" href="mailto:{{ site.data.socials.email | encode_email }}">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          <span>{{ site.data.socials.email }}</span>
+        </a>
+      {% endif %}
+    </div>
+
+    <nav class="home-sidebar-nav" aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}" {% if sidebar_active == 'about' %}aria-current="page"{% endif %}>About Me</a>
+      <a href="{{ '/publications/' | relative_url }}" {% if sidebar_active == 'publications' %}aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/projects/' | relative_url }}" {% if sidebar_active == 'projects' %}aria-current="page"{% endif %}>Projects</a>
+      <a href="{{ '/teaching/' | relative_url }}" {% if sidebar_active == 'teaching' %}aria-current="page"{% endif %}>Teaching</a>
+    </nav>
+
+    <div class="home-sidebar-social" aria-label="Social links">{% include social.liquid %}</div>
+
+    <div class="home-sidebar-tools" aria-label="Site tools">
+      {% if site.search_enabled %}
+        <button id="search-toggle" type="button" title="Search" aria-label="Search" onclick="openSearchModal()">
+          <i class="ti ti-search"></i>
+        </button>
+      {% endif %}
+      {% if site.enable_darkmode %}
+        <button id="light-toggle" type="button" title="Change theme" aria-label="Change theme">
+          <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+          <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+          <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+        </button>
+      {% endif %}
+    </div>
+  </div>
+</aside>

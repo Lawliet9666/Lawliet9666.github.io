@@ -1,48 +1,53 @@
-# News List Design QA
+# News Row Design QA
 
 **Source visual truth**
 
-- Path: conversation inline screenshot (271 x 74 px; no filesystem path)
-- State: two-row, light-theme news list with `YYYY-MM` dates
+- Path: conversation inline screenshot (1349 x 829 px; no filesystem path)
+- State: dark-theme academic News list with compact rows, colored venue badges, and month/year dates
+- User-directed deviation: place the date first and the conference/journal badge second, followed by the news content
 
 **Implementation evidence**
 
-- Full page: `/private/tmp/lawliet-news-final.png` (1920 x 2063 px)
-- Focused News region: `/private/tmp/lawliet-news-final-focus.png` (900 x 159 px)
-- Normalized comparison crop: `/private/tmp/lawliet-news-final-271x74.png` (271 x 74 px)
-- Browser viewport: 1920 x 934 CSS px
-- Browser device pixel ratio: 2; captured files were normalized to CSS-pixel dimensions
-- State: homepage, light theme, three current news entries
+- Desktop: Browser-rendered inline screenshot at 1349 x 829 CSS px (no filesystem path)
+- Mobile: Browser-rendered inline screenshot at 390 x 844 CSS px (no filesystem path)
+- Route/state: `http://127.0.0.1:4002/#news`, dark theme, News section aligned to the top of the viewport
+- Density normalization: source and desktop implementation were compared at the same 1349 x 829 viewport; no device frame or browser chrome was included
 
 **Full-view comparison evidence**
 
-- The list integrates with the existing homepage width and typography without a card, border, radius, shadow, or row separators.
-- Long real publication titles wrap naturally; the shorter placeholder copy in the source does not. This is an expected content-length difference rather than layout drift.
+- The implementation preserves the homepage sidebar and section hierarchy while adopting the reference's compact, borderless News rows.
+- Each row now reads left-to-right as date, colored venue badge, and announcement text, matching the user's requested information order.
+- Venue colors follow the reference's restrained dark-theme palette rather than introducing saturated status colors.
+- The implementation contains four real News entries rather than duplicating rows to match the reference's longer list.
 
 **Focused region comparison evidence**
 
-- The focused capture uses a 76 px date column, 12 px column gap, approximately 33 px single-line row rhythm, slate dates, and regular dark body text.
-- A 271 x 74 px implementation crop was inspected against the source at equal pixel dimensions. Dates and text share the source alignment and visual hierarchy.
+- The News region was inspected at the same desktop viewport as the reference.
+- Date columns, badge widths, row rhythm, text wrapping, and alignment were readable without a separate crop.
+- Mobile was additionally checked at 390 x 844: the three-column order remains intact, all text stays readable, and document width remains exactly 390 px.
 
 **Required fidelity surfaces**
 
-- Fonts and typography: existing Inter/system stack retained; dates are 12.8 px/400 and body copy is 14.4 px/400 with normal style.
-- Spacing and layout rhythm: borderless two-column layout, 76 px date track, 12 px gap, and 5.6 px vertical cell padding match the reference proportions.
-- Colors and visual tokens: dates use the existing light-text token (`rgb(100, 116, 139)`); content uses the existing text token (`rgb(30, 41, 59)`); background is transparent.
-- Image quality and asset fidelity: no images, icons, or generated assets are present in this component.
-- Copy and content: current site news is preserved; dates now render as `YYYY-MM` as shown in the reference.
+- Fonts and typography: the existing Inter/system stack is retained; dates use a compact 0.8 rem medium weight, badges use a 0.76 rem semibold label, and news text uses the site's 0.9 rem body scale.
+- Spacing and layout rhythm: rows use compact vertical padding; date and venue columns have stable widths so content aligns consistently across rows.
+- Colors and visual tokens: T-ASE is green, IROS orange, L4DC purple, and ICRA blue, using muted backgrounds and light foregrounds suited to the current dark theme.
+- Image quality and asset fidelity: the reference region contains no image assets; no placeholders, custom SVGs, or generated assets were introduced.
+- Copy and content: all existing dates and complete announcement text are preserved; only the date presentation changes to `Mon. YYYY`, and venue acronyms are added from each News item's front matter.
 
 **Comparison history**
 
-1. Initial capture found a P2 typography mismatch: Markdown-emphasized publication titles rendered in italics and body text used weight 300.
-2. Fixed the News-scoped styles to render body copy and emphasis at normal style and weight 400.
-3. Post-fix capture confirms normal body text, unchanged date hierarchy, and no card or divider styling.
+1. First implementation pass matched the requested date-first information order and reference badge treatment. No actionable P0, P1, or P2 mismatch was found.
+2. Responsive verification confirmed no horizontal overflow and no News scrollbar at 390 x 844.
 
 **Browser checks**
 
-- News heading link opened `/news/` and returned to the homepage successfully.
-- Browser console errors: 0.
-- No new interactive controls were introduced.
+- Page identity: `Xinyi Wang` at `http://127.0.0.1:4002/#news`.
+- DOM exposed four rows in the order `date -> venue -> content`.
+- Venue labels present: T-ASE, IROS, L4DC, and ICRA.
+- News navigation scrolled the section to 31.9 px from the mobile viewport top.
+- Desktop and mobile News scrollbar: false.
+- Mobile document width: 390 px at a 390 px viewport.
+- Browser console errors/warnings: 0.
 
 **Findings**
 
@@ -54,14 +59,14 @@
 
 **Implementation Checklist**
 
-- [x] Format dates as `YYYY-MM`.
-- [x] Remove the card border, background, radius, row dividers, and hover fill from News only.
-- [x] Match the two-column spacing and regular text treatment.
-- [x] Verify the homepage and dedicated News page build output.
-- [x] Verify the rendered component and News navigation in the browser.
+- [x] Put month/year first in every News row.
+- [x] Add a colored conference/journal badge before the announcement.
+- [x] Preserve complete News content and chronological ordering.
+- [x] Keep the list borderless and free of an internal scrollbar.
+- [x] Verify desktop and mobile rendering, News navigation, overflow, and console state.
 
 **Follow-up Polish**
 
-- None required.
+- Future News entries can opt into the same visual treatment by adding a `venue:` value to their front matter.
 
 final result: passed

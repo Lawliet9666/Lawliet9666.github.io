@@ -2,12 +2,13 @@
 layout: about
 title: about
 permalink: /
+home_sidebar: true
 
 profile:
   align: right
   image: profile.png
   image_max_width: 200px
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>University of Michigan</p>
   #   <p>Robotics Department</p>
@@ -20,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false # keeps the full news list visible without a scroll bar
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:

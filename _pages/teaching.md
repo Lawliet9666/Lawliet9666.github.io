@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: sidebar_page
 permalink: /teaching/
 title: teaching
+home_sidebar: true
+sidebar_active: teaching
 nav: true
 nav_order: 6
 ---

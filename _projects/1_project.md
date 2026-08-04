@@ -1,34 +1,43 @@
 ---
-layout: page
-title: Risk-Adaptive CVaR Barrier Functions for Safe Navigation
-description: A risk-aware controller that keeps mobile robots safe in uncertain human crowds.
-img: assets/video/wang2025cvar_proj2.gif
+layout: sidebar_page
+title: Socially Aware Safe Navigation for Heterogeneous Multi-Agent Systems
+description: Risk-aware navigation in uncertain, crowded environments with heterogeneous agents.
+img: assets/img/publication_preview/wang2026rl.gif
 importance: 1
-category: Multi-agent
-related_publications: true
+permalink: /projects/socially-aware-safe-navigation/
+home_sidebar: true
+sidebar_active: projects
+research_focus:
+  - Social navigation
+  - Risk-adaptive safety
+  - Heterogeneous agents
 ---
 
-## Overview
+This project develops socially aware navigation methods that adapt safety and motion decisions to uncertain interactions among robots, pedestrians, and other moving agents. This work is conducted in collaboration with [Toyota Research Institute of North America (TRINA) - AMRD](https://amrd.toyota.com/division/trina/).
 
-We design a risk-adaptive control barrier function (CBF) that lets mobile robots move through dense, uncertain human crowds while keeping collision risk below a desired threshold {% cite wang2025cvar %}. By embedding Conditional Value at Risk (CVaR) into the barrier formulation, the controller reacts proactively to rare but dangerous crowd motions instead of relying on nominal predictions.
+## Reinforcement Learning for Risk Adaptation via Differentiable CVaR Barrier Functions
 
-## Key Contributions
-
-- Introduce a CVaR-based safety certificate that bounds the probability of constraint violations under distributional uncertainty.
-- Provide a closed-form update rule for the barrier parameter, enabling real-time risk adaptation on embedded platforms.
-- Demonstrate superior safety and task efficiency on large-scale crowd navigation benchmarks and hardware-in-the-loop tests compared with chance-constrained and deterministic baselines.
-
-## Method at a Glance
-
-{% include figure.liquid loading="lazy" path="assets/video/wang2025cvar_proj.gif" title="Risk-adaptive navigation among dynamic agents" class="img-fluid rounded z-depth-1" %}
-<div class="caption">
-Risk-aware CVaR barriers tighten the safe set only when the observed crowd motion suggests high tail risk, keeping the robot efficient during nominal operation and conservative in dangerous scenes.
+<div class="project-actions">
+  <a class="project-primary-action" href="https://crowd-env.taekyung.me/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-play" aria-hidden="true"></i> Launch Live Web Demo</a>
 </div>
 
-## Resources
+<div class="project-media-grid align-items-start" style="grid-template-columns: 1fr;">
+  <div class="project-media-item">
+    {% include figure.liquid loading="lazy" path="assets/img/publication_preview/wang2026learning.gif" title="Risk-adaptive demo" alt="Visualization of adaptive risk and safety decisions" %}
+    <p>Risk-adaptive demo</p>
+  </div>
+  <div class="project-media-item">
+    {% include figure.liquid loading="lazy" path="assets/video/wangral_diffcvar.gif" title="Real-world robot demo" alt="Real-world robot risk-adaptive navigation using differentiable CVaR barrier functions" %}
+    <p>Real-world robot demo</p>
+  </div>
+</div>
 
-- **Video walkthrough:** [YouTube demo](https://youtu.be/wOunvjGHhBQ)
-- **Project website:** [lawliet9666.github.io/cvarbf](https://lawliet9666.github.io/cvarbf/)
-- **Paper (PDF):** [Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions](https://arxiv.org/pdf/2504.06513)
+## Safe Navigation in Uncertain Crowded Environments Using Risk Adaptive CVaR Barrier Functions (IROS 2025)
 
-The toolbox and evaluation scripts used in the study are being prepared for release. Reach out if you would like early access to the experimental datasets or ROS integration notes.
+<div class="project-video-frame">
+  {% include video.liquid path="https://www.youtube.com/embed/VHRnmXToLN8" title="IROS 2025 risk-adaptive CVaR barrier function demonstration" width="100%" height="100%" %}
+</div>
+
+<div class="project-actions">
+  <a class="project-secondary-action" href="https://www.youtube.com/watch?v=VHRnmXToLN8" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube" aria-hidden="true"></i> Watch on YouTube</a>
+</div>

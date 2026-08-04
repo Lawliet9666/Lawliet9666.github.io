@@ -2,6 +2,7 @@
 layout: post
 title: L4DC 2025 Paper Acceptance
 date: 2025-02-20 10:00:00-0400
+venue: L4DC
 inline: true
 related_posts: false
 ---

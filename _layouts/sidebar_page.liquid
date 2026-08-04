@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="home-sidebar-page">
+  {% include home_sidebar.liquid active=page.sidebar_active %}
+
+  <main class="home-main-content home-subpage-content">
+    <div class="post">
+      <header class="post-header">
+        <h1 class="post-title">{% if page.collection == 'projects' %}{{ page.title }}{% else %}{{ page.title | capitalize }}{% endif %}</h1>
+        {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+        {% if page.research_focus %}
+          <div class="project-detail-meta">
+            <div class="project-focus" aria-label="Research focus">
+              <span class="project-focus-label">Research focus</span>
+              {% for focus in page.research_focus %}<span>{{ focus }}</span>{% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      </header>
+
+      <article>{{ content }}</article>
+    </div>
+  </main>
+</div>

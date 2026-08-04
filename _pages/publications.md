@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: sidebar_page
 permalink: /publications/
 title: publications
 description: † denotes co-first author, * denotes corresponding author.
+home_sidebar: true
+sidebar_active: publications
 
 nav: true
 nav_order: 2
