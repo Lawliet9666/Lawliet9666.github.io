@@ -546,10 +546,10 @@ ul.task-list input[type="checkbox"] {
         border-color: var(--global-theme-color);
         background-color: var(--global-theme-color);
         transform: translateY(-1px);
-        box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
+        box-shadow: 0 4px 10px color-mix(in srgb, var(--global-theme-color) 20%, transparent);
 
         i::before {
-          color: #{$white-color};
+          color: var(--global-hover-text-color);
         }
       }
     }
@@ -658,7 +658,7 @@ footer.sticky-bottom {
       }
 
       &:hover {
-        background-color: rgba(37, 99, 235, 0.04);
+        background-color: color-mix(in srgb, var(--global-theme-color) 4%, transparent);
       }
 
       th {
@@ -781,6 +781,11 @@ footer.sticky-bottom {
   .news-badge-icra {
     color: #bfe3ff;
     background: #315a79;
+  }
+
+  .news-badge-ou {
+    color: #f5e6ed;
+    background: #6f3a53;
   }
 }
 
@@ -947,7 +952,7 @@ footer.sticky-bottom {
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: var(--global-hover-text-color);
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -1161,7 +1166,7 @@ footer.sticky-bottom {
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
-            background-color: rgba(37, 99, 235, 0.05);
+            background-color: color-mix(in srgb, var(--global-theme-color) 5%, transparent);
             text-decoration: none;
             opacity: 1;
           }
@@ -1705,7 +1710,7 @@ ninja-keys::part(ninja-input-wrapper) {
 // highlight-search-term
 ::highlight(search) {
   background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+  color: var(--global-hover-text-color);
 }
 
 figure.cover {

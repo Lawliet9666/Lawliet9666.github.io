@@ -70,3 +70,80 @@
 - Future News entries can opt into the same visual treatment by adding a `venue:` value to their front matter.
 
 final result: passed
+
+---
+
+# Contact Card Design QA
+
+**Source visual truth**
+
+- Path: `/var/folders/rz/09gg5km15qx9w11_2v_1m1wc0000gn/T/codex-clipboard-d23be6e0-4196-41d1-81b5-16c8b044a6ae.png`
+- Source pixels: 928 x 514 at 1x density.
+- State: light contact-information card with a white background, thin neutral border, rounded corners, generous padding, stacked details, and a prominent underlined email.
+- User-directed content order: name, role, office, phone, and email.
+
+**Implementation evidence**
+
+- Desktop: `/Users/lawliet/Documents/Codex/2026-08-24/zheg/outputs/homepage-contact-section-desktop.jpg`, 1280 x 720 CSS px at 1x density.
+- Focused card: `/Users/lawliet/Documents/Codex/2026-08-24/zheg/outputs/homepage-contact-card-focused.jpg`, 842 x 262 px at 1x density.
+- Mobile: `/Users/lawliet/Documents/Codex/2026-08-24/zheg/outputs/homepage-contact-section-mobile.jpg`, 390 x 844 CSS px at 1x density.
+- Dark theme: `/Users/lawliet/Documents/Codex/2026-08-24/zheg/outputs/homepage-contact-section-dark.jpg`, 1280 x 720 CSS px at 1x density.
+- Combined comparison: `/Users/lawliet/Documents/Codex/2026-08-24/zheg/outputs/contact-card-design-qa-comparison.jpg`.
+- Route/state: `http://127.0.0.1:8767/#contact`, Contact section aligned in the viewport after activating the sidebar link.
+
+**Full-view comparison evidence**
+
+- The reference defines only the card, so the existing homepage composition remains the product constraint.
+- The implementation preserves the left sidebar, section hierarchy, light/dark tokens, and current Inter typography while introducing the requested card at the bottom of the homepage.
+- The sidebar now shows Assistant Professor and the Oakland email, matching the card.
+
+**Focused region comparison evidence**
+
+- The reference and focused implementation were placed in one side-by-side comparison image.
+- Both use a white card surface, thin pale-gray border, rounded corners, dark text, and an underlined email.
+- The implementation is intentionally more compact because it contains five short lines rather than the reference's longer postal-address block.
+- The email remains prominent but follows the user-provided order at the bottom instead of the reference's top position.
+
+**Required fidelity surfaces**
+
+- Fonts and typography: the existing Inter/system stack is retained; the name uses a strong display weight, the role uses muted medium text, and contact details use readable body sizing.
+- Spacing and layout rhythm: desktop uses 2.1 rem by 2.35 rem card padding with a clear identity/details split; mobile reduces padding while preserving the hierarchy.
+- Colors and visual tokens: the card uses the site's background, divider, text, and burgundy accent tokens; dark mode resolves to a near-black card with light text and a subtle border.
+- Image quality and asset fidelity: the reference contains no image assets; no placeholders, custom drawings, or generated assets were needed.
+- Copy and content: name, role, office, phone, and email match the user's supplied text exactly.
+
+**Comparison history**
+
+1. Initial implementation matched the card treatment but left the sidebar role as Robotics Researcher, creating a visible content inconsistency.
+2. The sidebar role was updated to Assistant Professor, the site was rebuilt, and desktop, dark, and mobile captures confirmed consistent title and email content.
+
+**Browser checks**
+
+- Page identity: `Xinyi Wang` at `http://127.0.0.1:8767/#contact`.
+- Contact activation changed the hash to `#contact` and brought the section into view.
+- Phone target: `tel:12483702686`.
+- Email target: encoded `mailto:xinyiwang@oakland.edu`.
+- Mobile card width: 355 px in a 390 px viewport; horizontal overflow: false.
+- Browser console errors/warnings: 0.
+
+**Findings**
+
+- No actionable P0, P1, or P2 differences remain.
+
+**Open Questions**
+
+- None.
+
+**Implementation Checklist**
+
+- [x] Keep Contact in the left sidebar.
+- [x] Link Contact to the homepage card.
+- [x] Add the supplied name, title, office, phone, and email.
+- [x] Update the sidebar email and role for consistency.
+- [x] Verify light, dark, desktop, and mobile rendering.
+
+**Follow-up Polish**
+
+- The card can be expanded later with a full mailing address if desired.
+
+final result: passed

@@ -8,46 +8,58 @@ nav: true
 nav_order: 6
 ---
 
-<div class="row justify-content-center">
-  <div class="col-lg-8">
-    <h2 class="h3 font-weight-bold mb-3">Teaching Experience</h2>
-    <div class="card shadow-sm mb-3">
-      <div class="card-body">
-        <h3 class="h5 mb-1">EECS 560 Linear Systems Theory</h3>
-        <p class="text-muted mb-2">Co-instructor · University of Michigan · Prof. Necmiye Ozay</p>
-      </div>
-    </div>
-    <div class="card shadow-sm mb-3">
-      <div class="card-body">
-        <h3 class="h5 mb-1">MAEG 3080 Fundamentals of Machine Intelligence</h3>
-        <p class="text-muted mb-2">Teaching Assistant · The Chinese University of Hong Kong · Prof. Juan Luis</p>
-      </div>
-    </div>
-    <div class="card shadow-sm mb-3">
-      <div class="card-body">
-        <h3 class="h5 mb-1">ENGG 5402 Advanced Robotics</h3>
-        <p class="text-muted mb-0">Teaching Assistant · The Chinese University of Hong Kong · Prof. Fei Chen</p>
-      </div>
-    </div>
+<div class="teaching-page">
+  <section class="teaching-section" aria-labelledby="teaching-experience-title">
+    <h2 id="teaching-experience-title" class="teaching-section-title">Teaching Experience</h2>
 
-    <h2 class="h3 font-weight-bold mb-3 mt-4">Graduate Coursework</h2>
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2">
-            <span class="font-weight-medium">IERG 5350 Reinforcement Learning</span><br>
-            <span class="text-muted small">Instructor: Prof. Bolei Zhou</span>
-          </li>
-          <li class="mb-2">
-            <span class="font-weight-medium">ENGG 5501 Foundations of Optimization</span><br>
-            <span class="text-muted small">Instructor: Prof. Anthony Man-Cho So</span>
-          </li>
-          <li>
-            <span class="font-weight-medium">ELEG 5491 Introduction to Deep Learning</span><br>
-            <span class="text-muted small">Instructor: Prof. Hongsheng Li</span>
-          </li>
-        </ul>
+    <article class="teaching-entry">
+      <div class="teaching-entry-header">
+        <h3 class="teaching-entry-title">ME 5400 Numerical Methods for Mechanical Engineering</h3>
+        <time class="teaching-entry-year" datetime="2026">2026</time>
       </div>
-    </div>
-  </div>
+      <p class="teaching-entry-meta">Instructor · Fall 2026</p>
+    </article>
+
+    <article class="teaching-entry">
+      <div class="teaching-entry-header">
+        <h3 class="teaching-entry-title">EECS 560 Linear Systems Theory</h3>
+        <time class="teaching-entry-year" datetime="2025">2025</time>
+      </div>
+      <p class="teaching-entry-meta">Guest Lecturer · University of Michigan · Prof. Necmiye Ozay</p>
+    </article>
+
+    <article class="teaching-entry">
+      <div class="teaching-entry-header">
+        <h3 class="teaching-entry-title">MAEG 3080 Fundamentals of Machine Intelligence</h3>
+        <time class="teaching-entry-year" datetime="2021">2021</time>
+      </div>
+      <p class="teaching-entry-meta">Teaching Assistant · The Chinese University of Hong Kong · Prof. Juan Luis</p>
+    </article>
+
+    <article class="teaching-entry">
+      <div class="teaching-entry-header">
+        <h3 class="teaching-entry-title">ENGG 5402 Advanced Robotics</h3>
+        <time class="teaching-entry-year" datetime="2022">2022</time>
+      </div>
+      <p class="teaching-entry-meta">Teaching Assistant · The Chinese University of Hong Kong · Prof. Fei Chen</p>
+    </article>
+  </section>
+
+  <section class="teaching-section" aria-labelledby="graduate-coursework-title">
+    <h2 id="graduate-coursework-title" class="teaching-section-title">Graduate Coursework</h2>
+    <ul class="coursework-list">
+      <li class="coursework-item">
+        <h3 class="coursework-title">IERG 5350 Reinforcement Learning</h3>
+        <p class="coursework-meta">Instructor: Prof. Bolei Zhou</p>
+      </li>
+      <li class="coursework-item">
+        <h3 class="coursework-title">ENGG 5501 Foundations of Optimization</h3>
+        <p class="coursework-meta">Instructor: Prof. Anthony Man-Cho So</p>
+      </li>
+      <li class="coursework-item">
+        <h3 class="coursework-title">ELEG 5491 Introduction to Deep Learning</h3>
+        <p class="coursework-meta">Instructor: Prof. Hongsheng Li</p>
+      </li>
+    </ul>
+  </section>
 </div>

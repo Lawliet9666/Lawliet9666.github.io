@@ -1,6 +1,6 @@
 ---
 layout: sidebar_page
-title: Projects
+title: Research
 permalink: /projects/
 home_sidebar: true
 nav: false

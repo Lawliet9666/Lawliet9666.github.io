@@ -1,0 +1,659 @@
+/*******************************************************************************
+ * Page-level typography and Teaching page layout.
+ ******************************************************************************/
+
+// Preserve the authored title casing across the site instead of forcing
+// headings such as "News" and "Teaching Experience" to uppercase.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none !important;
+}
+
+.home-section-header {
+  h1,
+  h2 {
+    letter-spacing: -0.015em;
+  }
+}
+
+.post article h2 {
+  color: var(--global-text-color);
+  font-size: 1.25rem;
+  letter-spacing: -0.015em;
+}
+
+.home-about-copy h2 {
+  margin: 2rem 0 1rem;
+  color: var(--global-text-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+.contact-map {
+  width: 100%;
+  max-width: 54rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px;
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: clamp(18rem, 42vw, 24rem);
+    border: 0;
+  }
+}
+
+.contact-recruitment {
+  width: 100%;
+  max-width: 54rem;
+  margin-top: 2.5rem;
+  padding: 1.75rem 2rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 10px;
+
+  h2,
+  h3 {
+    color: var(--global-text-color);
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+
+  h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    margin: 1.5rem 0 0.6rem;
+    font-size: 1.05rem;
+  }
+
+  p,
+  li {
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  p {
+    margin: 0 0 0.85rem;
+  }
+
+  .contact-recruitment-lead {
+    color: var(--global-text-color);
+    font-weight: 600;
+  }
+
+  ul {
+    margin: 0.2rem 0 0;
+    padding-left: 1.25rem;
+  }
+
+  li + li {
+    margin-top: 0.3rem;
+  }
+
+  a {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+  }
+}
+
+.teaching-page {
+  width: min(100%, 52rem);
+  margin: 0 auto;
+}
+
+.teaching-section {
+  & + & {
+    margin-top: 2.5rem;
+  }
+}
+
+.teaching-page .teaching-section-title {
+  margin: 0 0 1rem;
+  padding-bottom: 0.65rem;
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+.teaching-entry,
+.coursework-list {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+}
+
+.teaching-entry {
+  margin: 0 0 1rem;
+  padding: 1.1rem 1.25rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+    transform: translateY(-1px);
+  }
+}
+
+.teaching-entry-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.teaching-entry-title,
+.coursework-title {
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.45;
+}
+
+.teaching-entry-year {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.teaching-entry-meta,
+.coursework-meta {
+  margin: 0.3rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.coursework-list {
+  margin: 0;
+  padding: 0 1.25rem;
+  list-style: none;
+}
+
+.coursework-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .teaching-entry-header {
+    align-items: flex-start;
+  }
+
+  .teaching-entry,
+  .coursework-list {
+    border-radius: 8px;
+  }
+
+  .contact-recruitment {
+    padding: 1.4rem 1.3rem;
+  }
+}
+
+/*******************************************************************************
+ * SCALE Lab homepage.
+ ******************************************************************************/
+
+.home-campus-hero {
+  margin: 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 5;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  figcaption {
+    margin-top: 0.45rem;
+    color: var(--global-text-color-light);
+    font-size: 0.72rem;
+    text-align: right;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+
+      &:hover,
+      &:focus-visible {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+.home-lab-showcase {
+  display: grid;
+  margin-top: 2.8rem;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+.scale-lab-intro {
+  h1 {
+    margin: 0 0 1.25rem;
+    color: var(--global-text-color);
+    font-size: clamp(1.4rem, 1.8vw, 1.75rem);
+    font-weight: 760;
+    letter-spacing: -0.035em;
+    line-height: 1.15;
+  }
+
+  p {
+    margin: 0 0 1rem;
+    color: var(--global-text-color-light);
+    font-size: 0.98rem;
+    line-height: 1.72;
+  }
+}
+
+.scale-lab-link {
+  display: inline-flex;
+  margin-top: 0.4rem;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--global-theme-color);
+  font-size: 0.94rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  i {
+    font-size: 1.05rem;
+    transition: transform 0.18s ease;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+
+    i {
+      transform: translateX(3px);
+    }
+  }
+}
+
+.home-publication-carousel {
+  min-width: 0;
+  padding: 0.9rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+
+  .bibliography {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: transform 0.45s ease;
+
+    > li {
+      width: 100%;
+      min-width: 100%;
+      margin: 0;
+      padding: 0;
+      flex: 0 0 100%;
+    }
+  }
+}
+
+.home-publication-viewport {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.home-publication-slide {
+  min-width: 0;
+}
+
+.home-publication-media {
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: color-mix(in srgb, var(--global-card-bg-color) 78%, var(--global-bg-color));
+  border-radius: 8px;
+
+  video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.home-publication-caption {
+  padding: 1rem 0.2rem 0.2rem;
+
+  h3 {
+    margin: 0;
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.42;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover,
+      &:focus-visible {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+
+  p {
+    margin: 0.55rem 0 0;
+    color: var(--global-theme-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+  }
+}
+
+.home-carousel-controls {
+  display: grid;
+  margin-top: 0.85rem;
+  grid-template-columns: 2rem 1fr 2rem;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.home-carousel-arrow {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  color: var(--global-text-color);
+  background: transparent;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 50%;
+
+  svg {
+    width: 1.05rem;
+    height: 1.05rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-hover-text-color);
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+}
+
+.home-carousel-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.48rem;
+
+  button {
+    width: 0.48rem;
+    height: 0.48rem;
+    padding: 0;
+    background: var(--global-divider-color);
+    border: 0;
+    border-radius: 50%;
+    transition: width 0.18s ease, background-color 0.18s ease;
+
+    &[aria-current="true"] {
+      width: 1.35rem;
+      background: var(--global-theme-color);
+      border-radius: 999px;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 3px;
+    }
+  }
+}
+
+.home-landing-content > #news {
+  margin-top: 3.8rem;
+}
+
+/*******************************************************************************
+ * Biography page.
+ ******************************************************************************/
+
+.biography-page {
+  width: min(100%, 54rem);
+}
+
+.biography-intro {
+  display: grid;
+  margin-top: 1.25rem;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 17.5rem);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.biography-copy {
+  color: var(--global-text-color-light);
+  font-size: 1rem;
+  line-height: 1.75;
+
+  p:first-child {
+    margin-top: 0;
+    color: var(--global-text-color);
+    font-size: 1.08rem;
+    font-weight: 600;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.biography-portrait {
+  width: 100%;
+  margin: 0;
+
+  figure,
+  picture {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .biography-portrait-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border-radius: 10px;
+  }
+}
+
+.biography-section {
+  margin-top: 3.25rem;
+
+  > h2 {
+    margin: 0 0 1rem;
+    padding-bottom: 0.65rem;
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+}
+
+.biography-history {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.biography-history-row {
+  display: grid;
+  padding: 1rem 0;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  strong,
+  span {
+    display: block;
+  }
+
+  strong {
+    color: var(--global-text-color);
+    font-size: 0.98rem;
+    line-height: 1.45;
+  }
+
+  span {
+    color: var(--global-text-color-light);
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+
+  span {
+    margin-top: 0.2rem;
+  }
+
+  .biography-years {
+    margin-top: 0;
+    padding-top: 0.05rem;
+    white-space: nowrap;
+  }
+}
+
+.biography-service-list {
+  margin: 0;
+
+  > div {
+    display: grid;
+    padding: 1rem 0;
+    grid-template-columns: 9.5rem minmax(0, 1fr);
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:first-child {
+      border-top: 1px solid var(--global-divider-color);
+    }
+  }
+
+  dt {
+    color: var(--global-text-color);
+    font-size: 0.94rem;
+    font-weight: 700;
+  }
+
+  dd {
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+}
+
+@media (max-width: 1180px) and (min-width: 992px) {
+  .home-landing-content {
+    padding-right: 2.25rem;
+    padding-left: 2.25rem;
+  }
+
+  .home-lab-showcase {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-lab-showcase {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .biography-intro {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .biography-portrait {
+    width: min(72vw, 18rem);
+    margin: 0 auto;
+    order: -1;
+  }
+
+  .biography-service-list > div {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .home-campus-hero img {
+    aspect-ratio: 5 / 2;
+  }
+
+  .scale-lab-intro h1 {
+    font-size: 1.4rem;
+  }
+
+  .biography-history-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .biography-history-row .biography-years {
+    padding-top: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-publication-carousel .bibliography,
+  .home-carousel-dots button,
+  .scale-lab-link i {
+    transition: none;
+  }
+}

@@ -1,0 +1,40 @@
+---
+---
+{% assign home_preview = entry.home_preview | default: entry.preview %}
+{% assign preview_stem = home_preview | split: '.' | first %}
+{% assign publication_url = entry.website %}
+{% if publication_url == blank %}
+  {% assign publication_url = entry.pdf %}
+{% endif %}
+{% if publication_url == blank %}
+  {% assign publication_url = link %}
+{% endif %}
+{% assign venue = entry.abbr %}
+{% if venue == blank %}
+  {% assign venue = entry.journal %}
+{% endif %}
+{% if venue == blank %}
+  {% assign venue = entry.booktitle %}
+{% endif %}
+
+<article class="home-publication-slide" aria-labelledby="home-publication-{{ entry.key }}">
+  <div class="home-publication-media">
+    <video
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="{{ '/assets/img/publication_preview/posters/' | append: preview_stem | append: '.webp' | relative_url }}"
+      aria-label="Animated preview for {{ entry.title | strip_html | escape }}"
+    >
+      <source src="{{ '/assets/video/publication_preview/' | append: preview_stem | append: '.webm' | relative_url }}" type="video/webm">
+      <source src="{{ '/assets/video/publication_preview/' | append: preview_stem | append: '.mp4' | relative_url }}" type="video/mp4">
+    </video>
+  </div>
+  <div class="home-publication-caption">
+    <h3 id="home-publication-{{ entry.key }}">
+      {% if publication_url %}<a href="{{ publication_url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}
+    </h3>
+    <p>{{ venue }}{% if venue and entry.year %}<span aria-hidden="true"> · </span>{% endif %}{{ entry.year }}</p>
+  </div>
+</article>

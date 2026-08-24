@@ -45,10 +45,10 @@ body.sticky-bottom-footer {
 
 .home-with-sidebar {
   --home-sidebar-width: clamp(18rem, 23vw, 22rem);
-  --home-sidebar-bg: #d8eef3;
-  --home-sidebar-text: #1f3b47;
-  --home-sidebar-muted: #52727f;
-  --home-sidebar-border: rgba(31, 59, 71, 0.12);
+  --home-sidebar-bg: #f6f6f7;
+  --home-sidebar-text: #252326;
+  --home-sidebar-muted: #666168;
+  --home-sidebar-border: rgba(37, 35, 38, 0.12);
 
   padding-top: 0;
 
@@ -67,10 +67,10 @@ body.fixed-top-nav.home-with-sidebar {
 }
 
 html[data-theme="dark"] .home-with-sidebar {
-  --home-sidebar-bg: #16303d;
-  --home-sidebar-text: #e2f3f7;
-  --home-sidebar-muted: #a7c6d0;
-  --home-sidebar-border: rgba(226, 243, 247, 0.14);
+  --home-sidebar-bg: #151416;
+  --home-sidebar-text: #f2eff1;
+  --home-sidebar-muted: #aaa3a8;
+  --home-sidebar-border: rgba(242, 239, 241, 0.14);
 }
 
 .home-sidebar-page {
@@ -91,9 +91,24 @@ html[data-theme="dark"] .home-with-sidebar {
 .home-sidebar-inner {
   display: flex;
   min-height: 100%;
-  padding: 3.5rem 2.5rem 5rem;
+  padding: 3.25rem 2.5rem 5rem;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.home-sidebar-brand {
+  color: var(--home-sidebar-text);
+  font-size: 2rem;
+  font-weight: 780;
+  letter-spacing: -0.045em;
+  line-height: 1;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
 }
 
 .home-sidebar-profile {
@@ -115,18 +130,20 @@ html[data-theme="dark"] .home-with-sidebar {
     object-fit: cover;
     object-position: 50% 31%;
     border: 4px solid rgba(255, 255, 255, 0.72);
-    box-shadow: 0 12px 28px rgba(30, 64, 78, 0.16);
+    box-shadow: 0 12px 28px rgba(37, 35, 38, 0.16);
   }
 }
 
 .home-sidebar-identity {
-  text-align: center;
+  width: 100%;
+  margin-top: 1.75rem;
+  text-align: left;
 
   .home-sidebar-name {
     color: var(--home-sidebar-text);
-    font-size: 1.8rem;
+    font-size: 1.18rem;
     font-weight: 700;
-    letter-spacing: -0.035em;
+    letter-spacing: -0.02em;
     text-decoration: none;
 
     &:hover {
@@ -169,7 +186,10 @@ html[data-theme="dark"] .home-with-sidebar {
 
   a {
     position: relative;
+    display: flex;
     padding: 0.55rem 0.75rem;
+    align-items: center;
+    gap: 0.7rem;
     color: var(--home-sidebar-text);
     border-radius: 7px;
     font-size: 1rem;
@@ -199,6 +219,21 @@ html[data-theme="dark"] .home-with-sidebar {
     &[aria-current="page"]::before {
       background: var(--global-theme-color);
     }
+
+    i {
+      width: 1.1rem;
+      flex: 0 0 1.1rem;
+      color: var(--home-sidebar-muted);
+      font-size: 1.1rem;
+      text-align: center;
+      transition: color 0.18s ease;
+    }
+
+    &:hover i,
+    &:focus-visible i,
+    &[aria-current="page"] i {
+      color: var(--global-theme-color);
+    }
   }
 }
 
@@ -207,7 +242,7 @@ html[data-theme="dark"] .home-with-sidebar {
   margin-top: auto;
   padding-top: 2.5rem;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.65rem;
 
   a {
@@ -230,7 +265,7 @@ html[data-theme="dark"] .home-with-sidebar {
 
     &:hover,
     &:focus-visible {
-      color: #fff;
+      color: var(--global-hover-text-color);
       background: var(--global-theme-color);
       border-color: var(--global-theme-color);
       text-decoration: none;
@@ -326,6 +361,62 @@ html[data-theme="dark"] .home-with-sidebar {
   }
 }
 
+.home-contact-card {
+  max-width: 54rem;
+  margin: 0;
+  padding: 2.1rem 2.35rem;
+  color: var(--global-text-color);
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px;
+  font-style: normal;
+}
+
+.home-contact-name {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
+
+.home-contact-role {
+  margin: 0.4rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+  font-weight: 550;
+}
+
+.home-contact-details {
+  margin-top: 1.65rem;
+
+  p {
+    margin: 0.75rem 0 0;
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+      text-underline-offset: 0.16em;
+    }
+  }
+
+  .home-contact-email {
+    color: var(--global-theme-color);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.16em;
+  }
+}
+
 @media (max-width: 991px) {
   .home-with-sidebar {
     --home-sidebar-width: 100%;
@@ -349,23 +440,22 @@ html[data-theme="dark"] .home-with-sidebar {
     min-height: 0;
     margin: 0 auto;
     padding: 2rem 1.5rem;
-    grid-template-columns: 7.5rem minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) auto;
     grid-template-areas:
-      "photo identity"
+      "brand tools"
+      "identity tools"
       "nav nav"
-      "social tools";
+      "social social";
     column-gap: 1.5rem;
     align-items: center;
   }
 
-  .home-sidebar-profile {
-    width: 7.5rem;
-    height: 7.5rem;
-    margin: 0;
-    grid-area: photo;
+  .home-sidebar-brand {
+    grid-area: brand;
   }
 
   .home-sidebar-identity {
+    margin-top: 0.8rem;
     text-align: left;
     grid-area: identity;
   }
@@ -394,9 +484,10 @@ html[data-theme="dark"] .home-with-sidebar {
   }
 
   .home-sidebar-tools {
-    margin-top: 1.25rem;
+    margin-top: 0;
     grid-area: tools;
     justify-self: end;
+    align-self: start;
   }
 
   .home-main-content {
@@ -414,12 +505,16 @@ html[data-theme="dark"] .home-with-sidebar {
   }
 
   .home-sidebar-identity {
-    margin-top: 1rem;
+    margin-top: 1.1rem;
     text-align: center;
 
     .home-sidebar-name {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
     }
+  }
+
+  .home-sidebar-brand {
+    align-self: center;
   }
 
   .home-sidebar-nav {
@@ -427,10 +522,12 @@ html[data-theme="dark"] .home-with-sidebar {
   }
 
   .home-sidebar-social {
+    width: 100%;
     justify-content: center;
   }
 
   .home-sidebar-tools {
+    width: 100%;
     justify-content: center;
   }
 
@@ -440,6 +537,14 @@ html[data-theme="dark"] .home-with-sidebar {
 
   .home-section-header h1 {
     font-size: 1.35rem;
+  }
+
+  .home-contact-card {
+    padding: 1.5rem 1.35rem;
+  }
+
+  .home-contact-name {
+    font-size: 1.3rem;
   }
 }
 
@@ -469,7 +574,7 @@ html[data-theme="dark"] .home-with-sidebar {
 
       .project-card {
         border-color: color-mix(in srgb, var(--global-theme-color) 55%, var(--global-divider-color));
-        box-shadow: 0 16px 34px rgba(15, 23, 42, 0.18);
+        box-shadow: 0 16px 34px rgba(10, 10, 11, 0.18);
         transform: translateY(-3px);
       }
 
@@ -608,7 +713,7 @@ html[data-theme="dark"] .home-with-sidebar {
 }
 
 .project-primary-action {
-  color: #fff !important;
+  color: var(--global-hover-text-color) !important;
   background: var(--global-theme-color);
 }
 
@@ -623,7 +728,7 @@ html[data-theme="dark"] .home-with-sidebar {
   overflow: hidden;
   border: 1px solid var(--global-divider-color);
   border-radius: 12px;
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+  box-shadow: 0 12px 28px rgba(10, 10, 11, 0.14);
 }
 
 .project-video-frame {

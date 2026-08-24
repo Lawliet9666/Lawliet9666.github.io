@@ -1,0 +1,25 @@
+<section class="home-publication-carousel" data-publication-carousel aria-label="Featured publications" aria-roledescription="carousel" tabindex="0">
+  <h2 class="sr-only">Featured publications</h2>
+  <div class="home-publication-viewport">
+    {% bibliography --group_by none --query @*[selected=true]* --max 4 --template home_publication %}
+  </div>
+
+  <div class="home-carousel-controls" aria-label="Publication carousel controls">
+    <button class="home-carousel-arrow" type="button" data-carousel-previous aria-label="Previous publication">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M15 18l-6-6 6-6"></path>
+      </svg>
+    </button>
+    <div class="home-carousel-dots" role="group" aria-label="Choose a publication">
+      {% for index in (1..4) %}
+        <button type="button" data-carousel-dot="{{ forloop.index0 }}" aria-label="Show publication {{ index }}"></button>
+      {% endfor %}
+    </div>
+    <button class="home-carousel-arrow" type="button" data-carousel-next aria-label="Next publication">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M9 18l6-6-6-6"></path>
+      </svg>
+    </button>
+  </div>
+  <p class="sr-only" aria-live="polite" data-carousel-status></p>
+</section>
